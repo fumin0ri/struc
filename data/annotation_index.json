@@ -1,0 +1,475 @@
+{
+  "D01": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D02": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D03": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D04": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D05": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D06": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D07": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D08": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D09": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D10": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D11": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D12": {
+    "subject": "n1",
+    "state": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D13": {
+    "subject": "n1",
+    "state": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D14": {
+    "subject": "n1",
+    "state": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D15": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D16": {
+    "room": "n1",
+    "temp": "n2",
+    "condition": "n3",
+    "target": "n4",
+    "action": "n5",
+    "bearer": "n6",
+    "quantity": "n7",
+    "change": "n8",
+    "claim": "n9"
+  },
+  "D17": {
+    "room": "n1",
+    "temp": "n2",
+    "condition": "n3",
+    "target": "n4",
+    "action": "n5",
+    "bearer": "n6",
+    "quantity": "n7",
+    "change": "n8",
+    "claim": "n9"
+  },
+  "D18": {
+    "parts": "n1",
+    "tools": "n2",
+    "verify": "n3",
+    "gather": "n4",
+    "logic": "n5",
+    "bearer": "n6",
+    "quantity": "n7",
+    "change": "n8",
+    "claim": "n9"
+  },
+  "D19": {
+    "target": "n1",
+    "verify": "n2",
+    "gather": "n3",
+    "requires": "n4",
+    "bearer": "n5",
+    "quantity": "n6",
+    "change": "n7",
+    "causes": "n8"
+  },
+  "D20": {
+    "target": "n1",
+    "verify": "n2",
+    "gather": "n3",
+    "requires": "n4",
+    "bearer": "n5",
+    "quantity": "n6",
+    "change": "n7",
+    "causes": "n8"
+  },
+  "D21": {
+    "target": "n1",
+    "verify": "n2",
+    "use": "n3",
+    "claim": "n4"
+  },
+  "D22": {
+    "target": "n1",
+    "use": "n2",
+    "product": "n3",
+    "damage": "n4",
+    "claim": "n5"
+  },
+  "D23": {
+    "equipment": "n1",
+    "noise": "n2",
+    "damage": "n3",
+    "claim": "n4"
+  },
+  "D24": {
+    "worker": "n1",
+    "parts": "n2",
+    "action": "n3",
+    "desk": "n4",
+    "tools": "n5"
+  },
+  "D25": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D26": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D27": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D28": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D29": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D30": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D31": {
+    "subject": "n1",
+    "state": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D32": {
+    "subject": "n1",
+    "state": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D33": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D34": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D35": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D36": {
+    "room": "n1",
+    "temp": "n2",
+    "condition": "n3",
+    "target": "n4",
+    "action": "n5",
+    "bearer": "n6",
+    "quantity": "n7",
+    "change": "n8",
+    "claim": "n9"
+  },
+  "D37": {
+    "room": "n1",
+    "temp": "n2",
+    "condition": "n3",
+    "target": "n4",
+    "action": "n5",
+    "bearer": "n6",
+    "quantity": "n7",
+    "change": "n8",
+    "claim": "n9"
+  },
+  "D38": {
+    "parts": "n1",
+    "tools": "n2",
+    "verify": "n3",
+    "gather": "n4",
+    "logic": "n5",
+    "bearer": "n6",
+    "quantity": "n7",
+    "change": "n8",
+    "claim": "n9"
+  },
+  "D39": {
+    "target": "n1",
+    "verify": "n2",
+    "gather": "n3",
+    "requires": "n4",
+    "bearer": "n5",
+    "quantity": "n6",
+    "change": "n7",
+    "causes": "n8"
+  },
+  "D40": {
+    "target": "n1",
+    "action": "n2",
+    "agent": "n3",
+    "bearer": "n4",
+    "quantity": "n5",
+    "change": "n6",
+    "claim": "n7"
+  },
+  "D41": {
+    "target": "n1",
+    "verify": "n2",
+    "gather": "n3",
+    "requires": "n4",
+    "bearer": "n5",
+    "quantity": "n6",
+    "change": "n7",
+    "causes": "n8"
+  },
+  "D42": {
+    "first_target": "n1",
+    "first_action": "n2",
+    "first_bearer": "n3",
+    "first_quantity": "n4",
+    "first_change": "n5",
+    "first_claim": "n6",
+    "second_target": "n7",
+    "second_action": "n8",
+    "second_bearer": "n9",
+    "second_quantity": "n10",
+    "second_change": "n11",
+    "second_claim": "n12"
+  },
+  "D43": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D44": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D45": {
+    "product": "n1",
+    "damage": "n2",
+    "target": "n3",
+    "use": "n4"
+  },
+  "D46": {
+    "parts": "n1",
+    "verify": "n2",
+    "records": "n3",
+    "gather": "n4"
+  },
+  "D47": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D48": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D49": {
+    "equipment": "n1",
+    "temp": "n2",
+    "first_change": "n3",
+    "bearer": "n4",
+    "quantity": "n5",
+    "change": "n6",
+    "claim": "n7"
+  },
+  "D50": {
+    "equipment": "n1",
+    "temp": "n2",
+    "first_change": "n3",
+    "bearer": "n4",
+    "quantity": "n5",
+    "change": "n6",
+    "claim": "n7"
+  },
+  "D51": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D52": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D53": {
+    "target": "n1",
+    "action": "n2",
+    "quantity": "n3",
+    "change": "n4",
+    "claim": "n5"
+  },
+  "D54": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  },
+  "D55": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "not": "n6",
+    "claim": "n7"
+  },
+  "D56": {
+    "target": "n1",
+    "action": "n2",
+    "bearer": "n3",
+    "quantity": "n4",
+    "change": "n5",
+    "claim": "n6"
+  }
+}

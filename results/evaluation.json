@@ -1,0 +1,3411 @@
+{
+  "surface": {
+    "counts": {
+      "tp": 1,
+      "fp": 1,
+      "tn": 23,
+      "fn": 18,
+      "abstained": 0
+    },
+    "pair_count": 43,
+    "precision_on_predicted_matches": 0.5,
+    "positive_pair_recovery": 0.05263157894736842,
+    "including_semantic_diagnostics": {
+      "counts": {
+        "tp": 1,
+        "fp": 2,
+        "tn": 23,
+        "fn": 19,
+        "abstained": 0
+      },
+      "pair_count": 45,
+      "note": "The 43 controlled pairs plus OTHER and NOT/polarity probes; same-author semantic expectations, not independent ground truth."
+    },
+    "details": [
+      {
+        "a": "D01/claim",
+        "b": "D02/claim",
+        "expected": true,
+        "reason": "確認と点検、対象名と時間の言い換え",
+        "a_key": "D01:n6",
+        "b_key": "D02:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D25/claim",
+        "expected": true,
+        "reason": "追加事例の確かめる",
+        "a_key": "D01:n6",
+        "b_key": "D25:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D26/claim",
+        "expected": true,
+        "reason": "観察と言い換え",
+        "a_key": "D03:n6",
+        "b_key": "D26:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D27/claim",
+        "expected": true,
+        "reason": "測定と計測",
+        "a_key": "D04:n6",
+        "b_key": "D27:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D28/claim",
+        "expected": true,
+        "reason": "比較と比べる",
+        "a_key": "D05:n6",
+        "b_key": "D28:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D07/claim",
+        "expected": true,
+        "reason": "収集の言い換え",
+        "a_key": "D06:n6",
+        "b_key": "D07:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D29/claim",
+        "expected": true,
+        "reason": "文脈上の集約は収集",
+        "a_key": "D06:n6",
+        "b_key": "D29:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D09/claim",
+        "expected": true,
+        "reason": "使用と活用",
+        "a_key": "D08:n6",
+        "b_key": "D09:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D30/claim",
+        "expected": true,
+        "reason": "使用と用いる",
+        "a_key": "D08:n6",
+        "b_key": "D30:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D13/claim",
+        "expected": true,
+        "reason": "破損の言い換え",
+        "a_key": "D12:n6",
+        "b_key": "D13:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D31/claim",
+        "expected": true,
+        "reason": "破損と損傷",
+        "a_key": "D12:n6",
+        "b_key": "D31:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D14/claim",
+        "b": "D32/claim",
+        "expected": true,
+        "reason": "遅れと遅延",
+        "a_key": "D14:n6",
+        "b_key": "D32:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D17/claim",
+        "expected": true,
+        "reason": "同じ数値条件の適合確認",
+        "a_key": "D16:n9",
+        "b_key": "D17:n9",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D20/requires",
+        "expected": true,
+        "reason": "必要条件の言い換え",
+        "a_key": "D19:n4",
+        "b_key": "D20:n4",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D20/requires,causes",
+        "expected": true,
+        "reason": "連結2CLAIMの言い換え",
+        "a_key": "D19:n4,n8",
+        "b_key": "D20:n4,n8",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D41/requires,causes",
+        "expected": true,
+        "reason": "追加事例の連結2CLAIM",
+        "a_key": "D19:n4,n8",
+        "b_key": "D41:n4,n8",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D44/claim",
+        "expected": true,
+        "reason": "未登録の校正二例。v1では保留、v2で分類",
+        "a_key": "D43:n6",
+        "b_key": "D44:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D51/claim",
+        "expected": true,
+        "reason": "surface確認するでも差を調べる文脈なら比較",
+        "a_key": "D05:n6",
+        "b_key": "D51:n6",
+        "actual": false,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D52/claim",
+        "expected": true,
+        "reason": "基準に合うか確認する文脈",
+        "a_key": "D01:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D03/claim",
+        "expected": false,
+        "reason": "適合確認と観察",
+        "a_key": "D01:n6",
+        "b_key": "D03:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "適合確認と測定",
+        "a_key": "D01:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "適合確認と比較",
+        "a_key": "D01:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "観察と測定",
+        "a_key": "D03:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "観察と比較",
+        "a_key": "D03:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "測定と比較",
+        "a_key": "D04:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D11/claim",
+        "expected": false,
+        "reason": "実行所要時間と必要時間",
+        "a_key": "D01:n6",
+        "b_key": "D11:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D15/claim",
+        "expected": false,
+        "reason": "時間と温度",
+        "a_key": "D08:n6",
+        "b_key": "D15:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D14/claim",
+        "expected": false,
+        "reason": "破損と遅延",
+        "a_key": "D12:n6",
+        "b_key": "D14:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D33/claim",
+        "expected": false,
+        "reason": "ACTIONの否定",
+        "a_key": "D01:n6",
+        "b_key": "D33:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D34/claim",
+        "expected": false,
+        "reason": "CHANGEの否定",
+        "a_key": "D01:n6",
+        "b_key": "D34:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D35/claim",
+        "expected": false,
+        "reason": "CLAIMの否定",
+        "a_key": "D01:n6",
+        "b_key": "D35:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D36/claim",
+        "expected": false,
+        "reason": "条件の閾値30と40",
+        "a_key": "D16:n9",
+        "b_key": "D36:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D37/claim",
+        "expected": false,
+        "reason": "条件のLEとGE",
+        "a_key": "D16:n9",
+        "b_key": "D37:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D16/claim",
+        "expected": false,
+        "reason": "条件なしと条件あり",
+        "a_key": "D01:n6",
+        "b_key": "D16:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D18/claim",
+        "b": "D38/claim",
+        "expected": false,
+        "reason": "ANDとOR",
+        "a_key": "D18:n9",
+        "b_key": "D38:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D39/requires",
+        "expected": false,
+        "reason": "REQUIRESの向き",
+        "a_key": "D19:n4",
+        "b_key": "D39:n4",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D39/requires,causes",
+        "expected": false,
+        "reason": "2CLAIMの必要条件の向き",
+        "a_key": "D19:n4,n8",
+        "b_key": "D39:n4,n8",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D40/claim",
+        "expected": false,
+        "reason": "明示AGENTという追加引数",
+        "a_key": "D01:n6",
+        "b_key": "D40:n7",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D53/claim",
+        "expected": false,
+        "reason": "ENTITY二つを一つへ潰してはならない",
+        "a_key": "D01:n6",
+        "b_key": "D53:n5",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D56/claim",
+        "expected": false,
+        "reason": "単位不明と明示分。推測一致はしない",
+        "a_key": "D01:n6",
+        "b_key": "D56:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D54/claim",
+        "expected": false,
+        "reason": "減少と増えない",
+        "a_key": "D01:n6",
+        "b_key": "D54:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D51/claim",
+        "b": "D52/claim",
+        "expected": false,
+        "reason": "surfaceだけは同じでも比較と適合確認",
+        "a_key": "D51:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "校正と測定",
+        "a_key": "D43:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      }
+    ],
+    "risk_probes": [
+      {
+        "a": "D01/claim",
+        "b": "D47/claim",
+        "semantic_expectation": "原文上は断定と可能性が異なる",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D01/claim",
+        "b": "D48/claim",
+        "semantic_expectation": "推奨という周辺記述が比較に残らない",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D49/claim",
+        "b": "D50/claim",
+        "semantic_expectation": "変動と一定化は別の変化。意味上は不一致",
+        "expected_structural_match": true,
+        "semantic_match_target": false,
+        "actual": true
+      },
+      {
+        "a": "D33/claim",
+        "b": "D55/claim",
+        "semantic_expectation": "単純否定の意味は同じだがNOTとpolarityの表現差",
+        "expected_structural_match": false,
+        "semantic_match_target": true,
+        "actual": false
+      }
+    ]
+  },
+  "strict_v1": {
+    "counts": {
+      "tp": 18,
+      "fp": 0,
+      "tn": 23,
+      "fn": 0,
+      "abstained": 2
+    },
+    "pair_count": 43,
+    "precision_on_predicted_matches": 1.0,
+    "positive_pair_recovery": 0.9473684210526315,
+    "including_semantic_diagnostics": {
+      "counts": {
+        "tp": 18,
+        "fp": 1,
+        "tn": 23,
+        "fn": 1,
+        "abstained": 2
+      },
+      "pair_count": 45,
+      "note": "The 43 controlled pairs plus OTHER and NOT/polarity probes; same-author semantic expectations, not independent ground truth."
+    },
+    "details": [
+      {
+        "a": "D01/claim",
+        "b": "D02/claim",
+        "expected": true,
+        "reason": "確認と点検、対象名と時間の言い換え",
+        "a_key": "D01:n6",
+        "b_key": "D02:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D25/claim",
+        "expected": true,
+        "reason": "追加事例の確かめる",
+        "a_key": "D01:n6",
+        "b_key": "D25:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D26/claim",
+        "expected": true,
+        "reason": "観察と言い換え",
+        "a_key": "D03:n6",
+        "b_key": "D26:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D27/claim",
+        "expected": true,
+        "reason": "測定と計測",
+        "a_key": "D04:n6",
+        "b_key": "D27:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D28/claim",
+        "expected": true,
+        "reason": "比較と比べる",
+        "a_key": "D05:n6",
+        "b_key": "D28:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D07/claim",
+        "expected": true,
+        "reason": "収集の言い換え",
+        "a_key": "D06:n6",
+        "b_key": "D07:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D29/claim",
+        "expected": true,
+        "reason": "文脈上の集約は収集",
+        "a_key": "D06:n6",
+        "b_key": "D29:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D09/claim",
+        "expected": true,
+        "reason": "使用と活用",
+        "a_key": "D08:n6",
+        "b_key": "D09:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D30/claim",
+        "expected": true,
+        "reason": "使用と用いる",
+        "a_key": "D08:n6",
+        "b_key": "D30:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D13/claim",
+        "expected": true,
+        "reason": "破損の言い換え",
+        "a_key": "D12:n6",
+        "b_key": "D13:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D31/claim",
+        "expected": true,
+        "reason": "破損と損傷",
+        "a_key": "D12:n6",
+        "b_key": "D31:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D14/claim",
+        "b": "D32/claim",
+        "expected": true,
+        "reason": "遅れと遅延",
+        "a_key": "D14:n6",
+        "b_key": "D32:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D17/claim",
+        "expected": true,
+        "reason": "同じ数値条件の適合確認",
+        "a_key": "D16:n9",
+        "b_key": "D17:n9",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D20/requires",
+        "expected": true,
+        "reason": "必要条件の言い換え",
+        "a_key": "D19:n4",
+        "b_key": "D20:n4",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D20/requires,causes",
+        "expected": true,
+        "reason": "連結2CLAIMの言い換え",
+        "a_key": "D19:n4,n8",
+        "b_key": "D20:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D41/requires,causes",
+        "expected": true,
+        "reason": "追加事例の連結2CLAIM",
+        "a_key": "D19:n4,n8",
+        "b_key": "D41:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D44/claim",
+        "expected": true,
+        "reason": "未登録の校正二例。v1では保留、v2で分類",
+        "a_key": "D43:n6",
+        "b_key": "D44:n6",
+        "actual": null,
+        "status": "abstained"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D51/claim",
+        "expected": true,
+        "reason": "surface確認するでも差を調べる文脈なら比較",
+        "a_key": "D05:n6",
+        "b_key": "D51:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D52/claim",
+        "expected": true,
+        "reason": "基準に合うか確認する文脈",
+        "a_key": "D01:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D03/claim",
+        "expected": false,
+        "reason": "適合確認と観察",
+        "a_key": "D01:n6",
+        "b_key": "D03:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "適合確認と測定",
+        "a_key": "D01:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "適合確認と比較",
+        "a_key": "D01:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "観察と測定",
+        "a_key": "D03:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "観察と比較",
+        "a_key": "D03:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "測定と比較",
+        "a_key": "D04:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D11/claim",
+        "expected": false,
+        "reason": "実行所要時間と必要時間",
+        "a_key": "D01:n6",
+        "b_key": "D11:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D15/claim",
+        "expected": false,
+        "reason": "時間と温度",
+        "a_key": "D08:n6",
+        "b_key": "D15:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D14/claim",
+        "expected": false,
+        "reason": "破損と遅延",
+        "a_key": "D12:n6",
+        "b_key": "D14:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D33/claim",
+        "expected": false,
+        "reason": "ACTIONの否定",
+        "a_key": "D01:n6",
+        "b_key": "D33:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D34/claim",
+        "expected": false,
+        "reason": "CHANGEの否定",
+        "a_key": "D01:n6",
+        "b_key": "D34:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D35/claim",
+        "expected": false,
+        "reason": "CLAIMの否定",
+        "a_key": "D01:n6",
+        "b_key": "D35:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D36/claim",
+        "expected": false,
+        "reason": "条件の閾値30と40",
+        "a_key": "D16:n9",
+        "b_key": "D36:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D37/claim",
+        "expected": false,
+        "reason": "条件のLEとGE",
+        "a_key": "D16:n9",
+        "b_key": "D37:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D16/claim",
+        "expected": false,
+        "reason": "条件なしと条件あり",
+        "a_key": "D01:n6",
+        "b_key": "D16:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D18/claim",
+        "b": "D38/claim",
+        "expected": false,
+        "reason": "ANDとOR",
+        "a_key": "D18:n9",
+        "b_key": "D38:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D39/requires",
+        "expected": false,
+        "reason": "REQUIRESの向き",
+        "a_key": "D19:n4",
+        "b_key": "D39:n4",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D39/requires,causes",
+        "expected": false,
+        "reason": "2CLAIMの必要条件の向き",
+        "a_key": "D19:n4,n8",
+        "b_key": "D39:n4,n8",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D40/claim",
+        "expected": false,
+        "reason": "明示AGENTという追加引数",
+        "a_key": "D01:n6",
+        "b_key": "D40:n7",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D53/claim",
+        "expected": false,
+        "reason": "ENTITY二つを一つへ潰してはならない",
+        "a_key": "D01:n6",
+        "b_key": "D53:n5",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D56/claim",
+        "expected": false,
+        "reason": "単位不明と明示分。推測一致はしない",
+        "a_key": "D01:n6",
+        "b_key": "D56:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D54/claim",
+        "expected": false,
+        "reason": "減少と増えない",
+        "a_key": "D01:n6",
+        "b_key": "D54:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D51/claim",
+        "b": "D52/claim",
+        "expected": false,
+        "reason": "surfaceだけは同じでも比較と適合確認",
+        "a_key": "D51:n6",
+        "b_key": "D52:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "校正と測定",
+        "a_key": "D43:n6",
+        "b_key": "D04:n6",
+        "actual": null,
+        "status": "abstained"
+      }
+    ],
+    "risk_probes": [
+      {
+        "a": "D01/claim",
+        "b": "D47/claim",
+        "semantic_expectation": "原文上は断定と可能性が異なる",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D01/claim",
+        "b": "D48/claim",
+        "semantic_expectation": "推奨という周辺記述が比較に残らない",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D49/claim",
+        "b": "D50/claim",
+        "semantic_expectation": "変動と一定化は別の変化。意味上は不一致",
+        "expected_structural_match": true,
+        "semantic_match_target": false,
+        "actual": true
+      },
+      {
+        "a": "D33/claim",
+        "b": "D55/claim",
+        "semantic_expectation": "単純否定の意味は同じだがNOTとpolarityの表現差",
+        "expected_structural_match": false,
+        "semantic_match_target": true,
+        "actual": false
+      }
+    ]
+  },
+  "strict_v2": {
+    "counts": {
+      "tp": 19,
+      "fp": 0,
+      "tn": 24,
+      "fn": 0,
+      "abstained": 0
+    },
+    "pair_count": 43,
+    "precision_on_predicted_matches": 1.0,
+    "positive_pair_recovery": 1.0,
+    "including_semantic_diagnostics": {
+      "counts": {
+        "tp": 19,
+        "fp": 1,
+        "tn": 24,
+        "fn": 1,
+        "abstained": 0
+      },
+      "pair_count": 45,
+      "note": "The 43 controlled pairs plus OTHER and NOT/polarity probes; same-author semantic expectations, not independent ground truth."
+    },
+    "details": [
+      {
+        "a": "D01/claim",
+        "b": "D02/claim",
+        "expected": true,
+        "reason": "確認と点検、対象名と時間の言い換え",
+        "a_key": "D01:n6",
+        "b_key": "D02:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D25/claim",
+        "expected": true,
+        "reason": "追加事例の確かめる",
+        "a_key": "D01:n6",
+        "b_key": "D25:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D26/claim",
+        "expected": true,
+        "reason": "観察と言い換え",
+        "a_key": "D03:n6",
+        "b_key": "D26:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D27/claim",
+        "expected": true,
+        "reason": "測定と計測",
+        "a_key": "D04:n6",
+        "b_key": "D27:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D28/claim",
+        "expected": true,
+        "reason": "比較と比べる",
+        "a_key": "D05:n6",
+        "b_key": "D28:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D07/claim",
+        "expected": true,
+        "reason": "収集の言い換え",
+        "a_key": "D06:n6",
+        "b_key": "D07:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D29/claim",
+        "expected": true,
+        "reason": "文脈上の集約は収集",
+        "a_key": "D06:n6",
+        "b_key": "D29:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D09/claim",
+        "expected": true,
+        "reason": "使用と活用",
+        "a_key": "D08:n6",
+        "b_key": "D09:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D30/claim",
+        "expected": true,
+        "reason": "使用と用いる",
+        "a_key": "D08:n6",
+        "b_key": "D30:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D13/claim",
+        "expected": true,
+        "reason": "破損の言い換え",
+        "a_key": "D12:n6",
+        "b_key": "D13:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D31/claim",
+        "expected": true,
+        "reason": "破損と損傷",
+        "a_key": "D12:n6",
+        "b_key": "D31:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D14/claim",
+        "b": "D32/claim",
+        "expected": true,
+        "reason": "遅れと遅延",
+        "a_key": "D14:n6",
+        "b_key": "D32:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D17/claim",
+        "expected": true,
+        "reason": "同じ数値条件の適合確認",
+        "a_key": "D16:n9",
+        "b_key": "D17:n9",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D20/requires",
+        "expected": true,
+        "reason": "必要条件の言い換え",
+        "a_key": "D19:n4",
+        "b_key": "D20:n4",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D20/requires,causes",
+        "expected": true,
+        "reason": "連結2CLAIMの言い換え",
+        "a_key": "D19:n4,n8",
+        "b_key": "D20:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D41/requires,causes",
+        "expected": true,
+        "reason": "追加事例の連結2CLAIM",
+        "a_key": "D19:n4,n8",
+        "b_key": "D41:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D44/claim",
+        "expected": true,
+        "reason": "未登録の校正二例。v1では保留、v2で分類",
+        "a_key": "D43:n6",
+        "b_key": "D44:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D51/claim",
+        "expected": true,
+        "reason": "surface確認するでも差を調べる文脈なら比較",
+        "a_key": "D05:n6",
+        "b_key": "D51:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D52/claim",
+        "expected": true,
+        "reason": "基準に合うか確認する文脈",
+        "a_key": "D01:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D03/claim",
+        "expected": false,
+        "reason": "適合確認と観察",
+        "a_key": "D01:n6",
+        "b_key": "D03:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "適合確認と測定",
+        "a_key": "D01:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "適合確認と比較",
+        "a_key": "D01:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "観察と測定",
+        "a_key": "D03:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "観察と比較",
+        "a_key": "D03:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "測定と比較",
+        "a_key": "D04:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D11/claim",
+        "expected": false,
+        "reason": "実行所要時間と必要時間",
+        "a_key": "D01:n6",
+        "b_key": "D11:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D15/claim",
+        "expected": false,
+        "reason": "時間と温度",
+        "a_key": "D08:n6",
+        "b_key": "D15:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D14/claim",
+        "expected": false,
+        "reason": "破損と遅延",
+        "a_key": "D12:n6",
+        "b_key": "D14:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D33/claim",
+        "expected": false,
+        "reason": "ACTIONの否定",
+        "a_key": "D01:n6",
+        "b_key": "D33:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D34/claim",
+        "expected": false,
+        "reason": "CHANGEの否定",
+        "a_key": "D01:n6",
+        "b_key": "D34:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D35/claim",
+        "expected": false,
+        "reason": "CLAIMの否定",
+        "a_key": "D01:n6",
+        "b_key": "D35:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D36/claim",
+        "expected": false,
+        "reason": "条件の閾値30と40",
+        "a_key": "D16:n9",
+        "b_key": "D36:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D37/claim",
+        "expected": false,
+        "reason": "条件のLEとGE",
+        "a_key": "D16:n9",
+        "b_key": "D37:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D16/claim",
+        "expected": false,
+        "reason": "条件なしと条件あり",
+        "a_key": "D01:n6",
+        "b_key": "D16:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D18/claim",
+        "b": "D38/claim",
+        "expected": false,
+        "reason": "ANDとOR",
+        "a_key": "D18:n9",
+        "b_key": "D38:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D39/requires",
+        "expected": false,
+        "reason": "REQUIRESの向き",
+        "a_key": "D19:n4",
+        "b_key": "D39:n4",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D39/requires,causes",
+        "expected": false,
+        "reason": "2CLAIMの必要条件の向き",
+        "a_key": "D19:n4,n8",
+        "b_key": "D39:n4,n8",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D40/claim",
+        "expected": false,
+        "reason": "明示AGENTという追加引数",
+        "a_key": "D01:n6",
+        "b_key": "D40:n7",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D53/claim",
+        "expected": false,
+        "reason": "ENTITY二つを一つへ潰してはならない",
+        "a_key": "D01:n6",
+        "b_key": "D53:n5",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D56/claim",
+        "expected": false,
+        "reason": "単位不明と明示分。推測一致はしない",
+        "a_key": "D01:n6",
+        "b_key": "D56:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D54/claim",
+        "expected": false,
+        "reason": "減少と増えない",
+        "a_key": "D01:n6",
+        "b_key": "D54:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D51/claim",
+        "b": "D52/claim",
+        "expected": false,
+        "reason": "surfaceだけは同じでも比較と適合確認",
+        "a_key": "D51:n6",
+        "b_key": "D52:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "校正と測定",
+        "a_key": "D43:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      }
+    ],
+    "risk_probes": [
+      {
+        "a": "D01/claim",
+        "b": "D47/claim",
+        "semantic_expectation": "原文上は断定と可能性が異なる",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D01/claim",
+        "b": "D48/claim",
+        "semantic_expectation": "推奨という周辺記述が比較に残らない",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D49/claim",
+        "b": "D50/claim",
+        "semantic_expectation": "変動と一定化は別の変化。意味上は不一致",
+        "expected_structural_match": true,
+        "semantic_match_target": false,
+        "actual": true
+      },
+      {
+        "a": "D33/claim",
+        "b": "D55/claim",
+        "semantic_expectation": "単純否定の意味は同じだがNOTとpolarityの表現差",
+        "expected_structural_match": false,
+        "semantic_match_target": true,
+        "actual": false
+      }
+    ]
+  },
+  "no_concepts": {
+    "counts": {
+      "tp": 19,
+      "fp": 12,
+      "tn": 12,
+      "fn": 0,
+      "abstained": 0
+    },
+    "pair_count": 43,
+    "precision_on_predicted_matches": 0.6129032258064516,
+    "positive_pair_recovery": 1.0,
+    "including_semantic_diagnostics": {
+      "counts": {
+        "tp": 19,
+        "fp": 13,
+        "tn": 12,
+        "fn": 1,
+        "abstained": 0
+      },
+      "pair_count": 45,
+      "note": "The 43 controlled pairs plus OTHER and NOT/polarity probes; same-author semantic expectations, not independent ground truth."
+    },
+    "details": [
+      {
+        "a": "D01/claim",
+        "b": "D02/claim",
+        "expected": true,
+        "reason": "確認と点検、対象名と時間の言い換え",
+        "a_key": "D01:n6",
+        "b_key": "D02:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D25/claim",
+        "expected": true,
+        "reason": "追加事例の確かめる",
+        "a_key": "D01:n6",
+        "b_key": "D25:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D26/claim",
+        "expected": true,
+        "reason": "観察と言い換え",
+        "a_key": "D03:n6",
+        "b_key": "D26:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D27/claim",
+        "expected": true,
+        "reason": "測定と計測",
+        "a_key": "D04:n6",
+        "b_key": "D27:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D28/claim",
+        "expected": true,
+        "reason": "比較と比べる",
+        "a_key": "D05:n6",
+        "b_key": "D28:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D07/claim",
+        "expected": true,
+        "reason": "収集の言い換え",
+        "a_key": "D06:n6",
+        "b_key": "D07:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D29/claim",
+        "expected": true,
+        "reason": "文脈上の集約は収集",
+        "a_key": "D06:n6",
+        "b_key": "D29:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D09/claim",
+        "expected": true,
+        "reason": "使用と活用",
+        "a_key": "D08:n6",
+        "b_key": "D09:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D30/claim",
+        "expected": true,
+        "reason": "使用と用いる",
+        "a_key": "D08:n6",
+        "b_key": "D30:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D13/claim",
+        "expected": true,
+        "reason": "破損の言い換え",
+        "a_key": "D12:n6",
+        "b_key": "D13:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D31/claim",
+        "expected": true,
+        "reason": "破損と損傷",
+        "a_key": "D12:n6",
+        "b_key": "D31:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D14/claim",
+        "b": "D32/claim",
+        "expected": true,
+        "reason": "遅れと遅延",
+        "a_key": "D14:n6",
+        "b_key": "D32:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D17/claim",
+        "expected": true,
+        "reason": "同じ数値条件の適合確認",
+        "a_key": "D16:n9",
+        "b_key": "D17:n9",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D20/requires",
+        "expected": true,
+        "reason": "必要条件の言い換え",
+        "a_key": "D19:n4",
+        "b_key": "D20:n4",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D20/requires,causes",
+        "expected": true,
+        "reason": "連結2CLAIMの言い換え",
+        "a_key": "D19:n4,n8",
+        "b_key": "D20:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D41/requires,causes",
+        "expected": true,
+        "reason": "追加事例の連結2CLAIM",
+        "a_key": "D19:n4,n8",
+        "b_key": "D41:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D44/claim",
+        "expected": true,
+        "reason": "未登録の校正二例。v1では保留、v2で分類",
+        "a_key": "D43:n6",
+        "b_key": "D44:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D51/claim",
+        "expected": true,
+        "reason": "surface確認するでも差を調べる文脈なら比較",
+        "a_key": "D05:n6",
+        "b_key": "D51:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D52/claim",
+        "expected": true,
+        "reason": "基準に合うか確認する文脈",
+        "a_key": "D01:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D03/claim",
+        "expected": false,
+        "reason": "適合確認と観察",
+        "a_key": "D01:n6",
+        "b_key": "D03:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "適合確認と測定",
+        "a_key": "D01:n6",
+        "b_key": "D04:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "適合確認と比較",
+        "a_key": "D01:n6",
+        "b_key": "D05:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "観察と測定",
+        "a_key": "D03:n6",
+        "b_key": "D04:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "観察と比較",
+        "a_key": "D03:n6",
+        "b_key": "D05:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "測定と比較",
+        "a_key": "D04:n6",
+        "b_key": "D05:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D11/claim",
+        "expected": false,
+        "reason": "実行所要時間と必要時間",
+        "a_key": "D01:n6",
+        "b_key": "D11:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D15/claim",
+        "expected": false,
+        "reason": "時間と温度",
+        "a_key": "D08:n6",
+        "b_key": "D15:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D14/claim",
+        "expected": false,
+        "reason": "破損と遅延",
+        "a_key": "D12:n6",
+        "b_key": "D14:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D33/claim",
+        "expected": false,
+        "reason": "ACTIONの否定",
+        "a_key": "D01:n6",
+        "b_key": "D33:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D34/claim",
+        "expected": false,
+        "reason": "CHANGEの否定",
+        "a_key": "D01:n6",
+        "b_key": "D34:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D35/claim",
+        "expected": false,
+        "reason": "CLAIMの否定",
+        "a_key": "D01:n6",
+        "b_key": "D35:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D36/claim",
+        "expected": false,
+        "reason": "条件の閾値30と40",
+        "a_key": "D16:n9",
+        "b_key": "D36:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D37/claim",
+        "expected": false,
+        "reason": "条件のLEとGE",
+        "a_key": "D16:n9",
+        "b_key": "D37:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D16/claim",
+        "expected": false,
+        "reason": "条件なしと条件あり",
+        "a_key": "D01:n6",
+        "b_key": "D16:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D18/claim",
+        "b": "D38/claim",
+        "expected": false,
+        "reason": "ANDとOR",
+        "a_key": "D18:n9",
+        "b_key": "D38:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D39/requires",
+        "expected": false,
+        "reason": "REQUIRESの向き",
+        "a_key": "D19:n4",
+        "b_key": "D39:n4",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D39/requires,causes",
+        "expected": false,
+        "reason": "2CLAIMの必要条件の向き",
+        "a_key": "D19:n4,n8",
+        "b_key": "D39:n4,n8",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D40/claim",
+        "expected": false,
+        "reason": "明示AGENTという追加引数",
+        "a_key": "D01:n6",
+        "b_key": "D40:n7",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D53/claim",
+        "expected": false,
+        "reason": "ENTITY二つを一つへ潰してはならない",
+        "a_key": "D01:n6",
+        "b_key": "D53:n5",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D56/claim",
+        "expected": false,
+        "reason": "単位不明と明示分。推測一致はしない",
+        "a_key": "D01:n6",
+        "b_key": "D56:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D54/claim",
+        "expected": false,
+        "reason": "減少と増えない",
+        "a_key": "D01:n6",
+        "b_key": "D54:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D51/claim",
+        "b": "D52/claim",
+        "expected": false,
+        "reason": "surfaceだけは同じでも比較と適合確認",
+        "a_key": "D51:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "校正と測定",
+        "a_key": "D43:n6",
+        "b_key": "D04:n6",
+        "actual": true,
+        "status": "incorrect"
+      }
+    ],
+    "risk_probes": [
+      {
+        "a": "D01/claim",
+        "b": "D47/claim",
+        "semantic_expectation": "原文上は断定と可能性が異なる",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D01/claim",
+        "b": "D48/claim",
+        "semantic_expectation": "推奨という周辺記述が比較に残らない",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D49/claim",
+        "b": "D50/claim",
+        "semantic_expectation": "変動と一定化は別の変化。意味上は不一致",
+        "expected_structural_match": true,
+        "semantic_match_target": false,
+        "actual": true
+      },
+      {
+        "a": "D33/claim",
+        "b": "D55/claim",
+        "semantic_expectation": "単純否定の意味は同じだがNOTとpolarityの表現差",
+        "expected_structural_match": false,
+        "semantic_match_target": true,
+        "actual": false
+      }
+    ]
+  },
+  "no_conditions": {
+    "counts": {
+      "tp": 19,
+      "fp": 3,
+      "tn": 21,
+      "fn": 0,
+      "abstained": 0
+    },
+    "pair_count": 43,
+    "precision_on_predicted_matches": 0.8636363636363636,
+    "positive_pair_recovery": 1.0,
+    "including_semantic_diagnostics": {
+      "counts": {
+        "tp": 19,
+        "fp": 4,
+        "tn": 21,
+        "fn": 1,
+        "abstained": 0
+      },
+      "pair_count": 45,
+      "note": "The 43 controlled pairs plus OTHER and NOT/polarity probes; same-author semantic expectations, not independent ground truth."
+    },
+    "details": [
+      {
+        "a": "D01/claim",
+        "b": "D02/claim",
+        "expected": true,
+        "reason": "確認と点検、対象名と時間の言い換え",
+        "a_key": "D01:n6",
+        "b_key": "D02:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D25/claim",
+        "expected": true,
+        "reason": "追加事例の確かめる",
+        "a_key": "D01:n6",
+        "b_key": "D25:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D26/claim",
+        "expected": true,
+        "reason": "観察と言い換え",
+        "a_key": "D03:n6",
+        "b_key": "D26:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D27/claim",
+        "expected": true,
+        "reason": "測定と計測",
+        "a_key": "D04:n6",
+        "b_key": "D27:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D28/claim",
+        "expected": true,
+        "reason": "比較と比べる",
+        "a_key": "D05:n6",
+        "b_key": "D28:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D07/claim",
+        "expected": true,
+        "reason": "収集の言い換え",
+        "a_key": "D06:n6",
+        "b_key": "D07:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D29/claim",
+        "expected": true,
+        "reason": "文脈上の集約は収集",
+        "a_key": "D06:n6",
+        "b_key": "D29:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D09/claim",
+        "expected": true,
+        "reason": "使用と活用",
+        "a_key": "D08:n6",
+        "b_key": "D09:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D30/claim",
+        "expected": true,
+        "reason": "使用と用いる",
+        "a_key": "D08:n6",
+        "b_key": "D30:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D13/claim",
+        "expected": true,
+        "reason": "破損の言い換え",
+        "a_key": "D12:n6",
+        "b_key": "D13:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D31/claim",
+        "expected": true,
+        "reason": "破損と損傷",
+        "a_key": "D12:n6",
+        "b_key": "D31:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D14/claim",
+        "b": "D32/claim",
+        "expected": true,
+        "reason": "遅れと遅延",
+        "a_key": "D14:n6",
+        "b_key": "D32:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D17/claim",
+        "expected": true,
+        "reason": "同じ数値条件の適合確認",
+        "a_key": "D16:n9",
+        "b_key": "D17:n9",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D20/requires",
+        "expected": true,
+        "reason": "必要条件の言い換え",
+        "a_key": "D19:n4",
+        "b_key": "D20:n4",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D20/requires,causes",
+        "expected": true,
+        "reason": "連結2CLAIMの言い換え",
+        "a_key": "D19:n4,n8",
+        "b_key": "D20:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D41/requires,causes",
+        "expected": true,
+        "reason": "追加事例の連結2CLAIM",
+        "a_key": "D19:n4,n8",
+        "b_key": "D41:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D44/claim",
+        "expected": true,
+        "reason": "未登録の校正二例。v1では保留、v2で分類",
+        "a_key": "D43:n6",
+        "b_key": "D44:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D51/claim",
+        "expected": true,
+        "reason": "surface確認するでも差を調べる文脈なら比較",
+        "a_key": "D05:n6",
+        "b_key": "D51:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D52/claim",
+        "expected": true,
+        "reason": "基準に合うか確認する文脈",
+        "a_key": "D01:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D03/claim",
+        "expected": false,
+        "reason": "適合確認と観察",
+        "a_key": "D01:n6",
+        "b_key": "D03:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "適合確認と測定",
+        "a_key": "D01:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "適合確認と比較",
+        "a_key": "D01:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "観察と測定",
+        "a_key": "D03:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "観察と比較",
+        "a_key": "D03:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "測定と比較",
+        "a_key": "D04:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D11/claim",
+        "expected": false,
+        "reason": "実行所要時間と必要時間",
+        "a_key": "D01:n6",
+        "b_key": "D11:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D15/claim",
+        "expected": false,
+        "reason": "時間と温度",
+        "a_key": "D08:n6",
+        "b_key": "D15:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D14/claim",
+        "expected": false,
+        "reason": "破損と遅延",
+        "a_key": "D12:n6",
+        "b_key": "D14:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D33/claim",
+        "expected": false,
+        "reason": "ACTIONの否定",
+        "a_key": "D01:n6",
+        "b_key": "D33:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D34/claim",
+        "expected": false,
+        "reason": "CHANGEの否定",
+        "a_key": "D01:n6",
+        "b_key": "D34:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D35/claim",
+        "expected": false,
+        "reason": "CLAIMの否定",
+        "a_key": "D01:n6",
+        "b_key": "D35:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D36/claim",
+        "expected": false,
+        "reason": "条件の閾値30と40",
+        "a_key": "D16:n9",
+        "b_key": "D36:n9",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D37/claim",
+        "expected": false,
+        "reason": "条件のLEとGE",
+        "a_key": "D16:n9",
+        "b_key": "D37:n9",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D16/claim",
+        "expected": false,
+        "reason": "条件なしと条件あり",
+        "a_key": "D01:n6",
+        "b_key": "D16:n9",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D18/claim",
+        "b": "D38/claim",
+        "expected": false,
+        "reason": "ANDとOR",
+        "a_key": "D18:n9",
+        "b_key": "D38:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D39/requires",
+        "expected": false,
+        "reason": "REQUIRESの向き",
+        "a_key": "D19:n4",
+        "b_key": "D39:n4",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D39/requires,causes",
+        "expected": false,
+        "reason": "2CLAIMの必要条件の向き",
+        "a_key": "D19:n4,n8",
+        "b_key": "D39:n4,n8",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D40/claim",
+        "expected": false,
+        "reason": "明示AGENTという追加引数",
+        "a_key": "D01:n6",
+        "b_key": "D40:n7",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D53/claim",
+        "expected": false,
+        "reason": "ENTITY二つを一つへ潰してはならない",
+        "a_key": "D01:n6",
+        "b_key": "D53:n5",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D56/claim",
+        "expected": false,
+        "reason": "単位不明と明示分。推測一致はしない",
+        "a_key": "D01:n6",
+        "b_key": "D56:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D54/claim",
+        "expected": false,
+        "reason": "減少と増えない",
+        "a_key": "D01:n6",
+        "b_key": "D54:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D51/claim",
+        "b": "D52/claim",
+        "expected": false,
+        "reason": "surfaceだけは同じでも比較と適合確認",
+        "a_key": "D51:n6",
+        "b_key": "D52:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "校正と測定",
+        "a_key": "D43:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      }
+    ],
+    "risk_probes": [
+      {
+        "a": "D01/claim",
+        "b": "D47/claim",
+        "semantic_expectation": "原文上は断定と可能性が異なる",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D01/claim",
+        "b": "D48/claim",
+        "semantic_expectation": "推奨という周辺記述が比較に残らない",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D49/claim",
+        "b": "D50/claim",
+        "semantic_expectation": "変動と一定化は別の変化。意味上は不一致",
+        "expected_structural_match": true,
+        "semantic_match_target": false,
+        "actual": true
+      },
+      {
+        "a": "D33/claim",
+        "b": "D55/claim",
+        "semantic_expectation": "単純否定の意味は同じだがNOTとpolarityの表現差",
+        "expected_structural_match": false,
+        "semantic_match_target": true,
+        "actual": false
+      }
+    ]
+  },
+  "no_polarity": {
+    "counts": {
+      "tp": 19,
+      "fp": 3,
+      "tn": 21,
+      "fn": 0,
+      "abstained": 0
+    },
+    "pair_count": 43,
+    "precision_on_predicted_matches": 0.8636363636363636,
+    "positive_pair_recovery": 1.0,
+    "including_semantic_diagnostics": {
+      "counts": {
+        "tp": 19,
+        "fp": 4,
+        "tn": 21,
+        "fn": 1,
+        "abstained": 0
+      },
+      "pair_count": 45,
+      "note": "The 43 controlled pairs plus OTHER and NOT/polarity probes; same-author semantic expectations, not independent ground truth."
+    },
+    "details": [
+      {
+        "a": "D01/claim",
+        "b": "D02/claim",
+        "expected": true,
+        "reason": "確認と点検、対象名と時間の言い換え",
+        "a_key": "D01:n6",
+        "b_key": "D02:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D25/claim",
+        "expected": true,
+        "reason": "追加事例の確かめる",
+        "a_key": "D01:n6",
+        "b_key": "D25:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D26/claim",
+        "expected": true,
+        "reason": "観察と言い換え",
+        "a_key": "D03:n6",
+        "b_key": "D26:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D27/claim",
+        "expected": true,
+        "reason": "測定と計測",
+        "a_key": "D04:n6",
+        "b_key": "D27:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D28/claim",
+        "expected": true,
+        "reason": "比較と比べる",
+        "a_key": "D05:n6",
+        "b_key": "D28:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D07/claim",
+        "expected": true,
+        "reason": "収集の言い換え",
+        "a_key": "D06:n6",
+        "b_key": "D07:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D29/claim",
+        "expected": true,
+        "reason": "文脈上の集約は収集",
+        "a_key": "D06:n6",
+        "b_key": "D29:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D09/claim",
+        "expected": true,
+        "reason": "使用と活用",
+        "a_key": "D08:n6",
+        "b_key": "D09:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D30/claim",
+        "expected": true,
+        "reason": "使用と用いる",
+        "a_key": "D08:n6",
+        "b_key": "D30:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D13/claim",
+        "expected": true,
+        "reason": "破損の言い換え",
+        "a_key": "D12:n6",
+        "b_key": "D13:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D31/claim",
+        "expected": true,
+        "reason": "破損と損傷",
+        "a_key": "D12:n6",
+        "b_key": "D31:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D14/claim",
+        "b": "D32/claim",
+        "expected": true,
+        "reason": "遅れと遅延",
+        "a_key": "D14:n6",
+        "b_key": "D32:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D17/claim",
+        "expected": true,
+        "reason": "同じ数値条件の適合確認",
+        "a_key": "D16:n9",
+        "b_key": "D17:n9",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D20/requires",
+        "expected": true,
+        "reason": "必要条件の言い換え",
+        "a_key": "D19:n4",
+        "b_key": "D20:n4",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D20/requires,causes",
+        "expected": true,
+        "reason": "連結2CLAIMの言い換え",
+        "a_key": "D19:n4,n8",
+        "b_key": "D20:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D41/requires,causes",
+        "expected": true,
+        "reason": "追加事例の連結2CLAIM",
+        "a_key": "D19:n4,n8",
+        "b_key": "D41:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D44/claim",
+        "expected": true,
+        "reason": "未登録の校正二例。v1では保留、v2で分類",
+        "a_key": "D43:n6",
+        "b_key": "D44:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D51/claim",
+        "expected": true,
+        "reason": "surface確認するでも差を調べる文脈なら比較",
+        "a_key": "D05:n6",
+        "b_key": "D51:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D52/claim",
+        "expected": true,
+        "reason": "基準に合うか確認する文脈",
+        "a_key": "D01:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D03/claim",
+        "expected": false,
+        "reason": "適合確認と観察",
+        "a_key": "D01:n6",
+        "b_key": "D03:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "適合確認と測定",
+        "a_key": "D01:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "適合確認と比較",
+        "a_key": "D01:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "観察と測定",
+        "a_key": "D03:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "観察と比較",
+        "a_key": "D03:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "測定と比較",
+        "a_key": "D04:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D11/claim",
+        "expected": false,
+        "reason": "実行所要時間と必要時間",
+        "a_key": "D01:n6",
+        "b_key": "D11:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D15/claim",
+        "expected": false,
+        "reason": "時間と温度",
+        "a_key": "D08:n6",
+        "b_key": "D15:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D14/claim",
+        "expected": false,
+        "reason": "破損と遅延",
+        "a_key": "D12:n6",
+        "b_key": "D14:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D33/claim",
+        "expected": false,
+        "reason": "ACTIONの否定",
+        "a_key": "D01:n6",
+        "b_key": "D33:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D34/claim",
+        "expected": false,
+        "reason": "CHANGEの否定",
+        "a_key": "D01:n6",
+        "b_key": "D34:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D35/claim",
+        "expected": false,
+        "reason": "CLAIMの否定",
+        "a_key": "D01:n6",
+        "b_key": "D35:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D36/claim",
+        "expected": false,
+        "reason": "条件の閾値30と40",
+        "a_key": "D16:n9",
+        "b_key": "D36:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D37/claim",
+        "expected": false,
+        "reason": "条件のLEとGE",
+        "a_key": "D16:n9",
+        "b_key": "D37:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D16/claim",
+        "expected": false,
+        "reason": "条件なしと条件あり",
+        "a_key": "D01:n6",
+        "b_key": "D16:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D18/claim",
+        "b": "D38/claim",
+        "expected": false,
+        "reason": "ANDとOR",
+        "a_key": "D18:n9",
+        "b_key": "D38:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D39/requires",
+        "expected": false,
+        "reason": "REQUIRESの向き",
+        "a_key": "D19:n4",
+        "b_key": "D39:n4",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D39/requires,causes",
+        "expected": false,
+        "reason": "2CLAIMの必要条件の向き",
+        "a_key": "D19:n4,n8",
+        "b_key": "D39:n4,n8",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D40/claim",
+        "expected": false,
+        "reason": "明示AGENTという追加引数",
+        "a_key": "D01:n6",
+        "b_key": "D40:n7",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D53/claim",
+        "expected": false,
+        "reason": "ENTITY二つを一つへ潰してはならない",
+        "a_key": "D01:n6",
+        "b_key": "D53:n5",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D56/claim",
+        "expected": false,
+        "reason": "単位不明と明示分。推測一致はしない",
+        "a_key": "D01:n6",
+        "b_key": "D56:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D54/claim",
+        "expected": false,
+        "reason": "減少と増えない",
+        "a_key": "D01:n6",
+        "b_key": "D54:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D51/claim",
+        "b": "D52/claim",
+        "expected": false,
+        "reason": "surfaceだけは同じでも比較と適合確認",
+        "a_key": "D51:n6",
+        "b_key": "D52:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "校正と測定",
+        "a_key": "D43:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      }
+    ],
+    "risk_probes": [
+      {
+        "a": "D01/claim",
+        "b": "D47/claim",
+        "semantic_expectation": "原文上は断定と可能性が異なる",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D01/claim",
+        "b": "D48/claim",
+        "semantic_expectation": "推奨という周辺記述が比較に残らない",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D49/claim",
+        "b": "D50/claim",
+        "semantic_expectation": "変動と一定化は別の変化。意味上は不一致",
+        "expected_structural_match": true,
+        "semantic_match_target": false,
+        "actual": true
+      },
+      {
+        "a": "D33/claim",
+        "b": "D55/claim",
+        "semantic_expectation": "単純否定の意味は同じだがNOTとpolarityの表現差",
+        "expected_structural_match": false,
+        "semantic_match_target": true,
+        "actual": false
+      }
+    ]
+  },
+  "no_units": {
+    "counts": {
+      "tp": 19,
+      "fp": 1,
+      "tn": 23,
+      "fn": 0,
+      "abstained": 0
+    },
+    "pair_count": 43,
+    "precision_on_predicted_matches": 0.95,
+    "positive_pair_recovery": 1.0,
+    "including_semantic_diagnostics": {
+      "counts": {
+        "tp": 19,
+        "fp": 2,
+        "tn": 23,
+        "fn": 1,
+        "abstained": 0
+      },
+      "pair_count": 45,
+      "note": "The 43 controlled pairs plus OTHER and NOT/polarity probes; same-author semantic expectations, not independent ground truth."
+    },
+    "details": [
+      {
+        "a": "D01/claim",
+        "b": "D02/claim",
+        "expected": true,
+        "reason": "確認と点検、対象名と時間の言い換え",
+        "a_key": "D01:n6",
+        "b_key": "D02:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D25/claim",
+        "expected": true,
+        "reason": "追加事例の確かめる",
+        "a_key": "D01:n6",
+        "b_key": "D25:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D26/claim",
+        "expected": true,
+        "reason": "観察と言い換え",
+        "a_key": "D03:n6",
+        "b_key": "D26:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D27/claim",
+        "expected": true,
+        "reason": "測定と計測",
+        "a_key": "D04:n6",
+        "b_key": "D27:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D28/claim",
+        "expected": true,
+        "reason": "比較と比べる",
+        "a_key": "D05:n6",
+        "b_key": "D28:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D07/claim",
+        "expected": true,
+        "reason": "収集の言い換え",
+        "a_key": "D06:n6",
+        "b_key": "D07:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D06/claim",
+        "b": "D29/claim",
+        "expected": true,
+        "reason": "文脈上の集約は収集",
+        "a_key": "D06:n6",
+        "b_key": "D29:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D09/claim",
+        "expected": true,
+        "reason": "使用と活用",
+        "a_key": "D08:n6",
+        "b_key": "D09:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D30/claim",
+        "expected": true,
+        "reason": "使用と用いる",
+        "a_key": "D08:n6",
+        "b_key": "D30:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D13/claim",
+        "expected": true,
+        "reason": "破損の言い換え",
+        "a_key": "D12:n6",
+        "b_key": "D13:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D31/claim",
+        "expected": true,
+        "reason": "破損と損傷",
+        "a_key": "D12:n6",
+        "b_key": "D31:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D14/claim",
+        "b": "D32/claim",
+        "expected": true,
+        "reason": "遅れと遅延",
+        "a_key": "D14:n6",
+        "b_key": "D32:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D17/claim",
+        "expected": true,
+        "reason": "同じ数値条件の適合確認",
+        "a_key": "D16:n9",
+        "b_key": "D17:n9",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D20/requires",
+        "expected": true,
+        "reason": "必要条件の言い換え",
+        "a_key": "D19:n4",
+        "b_key": "D20:n4",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D20/requires,causes",
+        "expected": true,
+        "reason": "連結2CLAIMの言い換え",
+        "a_key": "D19:n4,n8",
+        "b_key": "D20:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D41/requires,causes",
+        "expected": true,
+        "reason": "追加事例の連結2CLAIM",
+        "a_key": "D19:n4,n8",
+        "b_key": "D41:n4,n8",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D44/claim",
+        "expected": true,
+        "reason": "未登録の校正二例。v1では保留、v2で分類",
+        "a_key": "D43:n6",
+        "b_key": "D44:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D05/claim",
+        "b": "D51/claim",
+        "expected": true,
+        "reason": "surface確認するでも差を調べる文脈なら比較",
+        "a_key": "D05:n6",
+        "b_key": "D51:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D52/claim",
+        "expected": true,
+        "reason": "基準に合うか確認する文脈",
+        "a_key": "D01:n6",
+        "b_key": "D52:n6",
+        "actual": true,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D03/claim",
+        "expected": false,
+        "reason": "適合確認と観察",
+        "a_key": "D01:n6",
+        "b_key": "D03:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "適合確認と測定",
+        "a_key": "D01:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "適合確認と比較",
+        "a_key": "D01:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "観察と測定",
+        "a_key": "D03:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D03/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "観察と比較",
+        "a_key": "D03:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D04/claim",
+        "b": "D05/claim",
+        "expected": false,
+        "reason": "測定と比較",
+        "a_key": "D04:n6",
+        "b_key": "D05:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D11/claim",
+        "expected": false,
+        "reason": "実行所要時間と必要時間",
+        "a_key": "D01:n6",
+        "b_key": "D11:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D08/claim",
+        "b": "D15/claim",
+        "expected": false,
+        "reason": "時間と温度",
+        "a_key": "D08:n6",
+        "b_key": "D15:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D12/claim",
+        "b": "D14/claim",
+        "expected": false,
+        "reason": "破損と遅延",
+        "a_key": "D12:n6",
+        "b_key": "D14:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D33/claim",
+        "expected": false,
+        "reason": "ACTIONの否定",
+        "a_key": "D01:n6",
+        "b_key": "D33:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D34/claim",
+        "expected": false,
+        "reason": "CHANGEの否定",
+        "a_key": "D01:n6",
+        "b_key": "D34:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D35/claim",
+        "expected": false,
+        "reason": "CLAIMの否定",
+        "a_key": "D01:n6",
+        "b_key": "D35:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D36/claim",
+        "expected": false,
+        "reason": "条件の閾値30と40",
+        "a_key": "D16:n9",
+        "b_key": "D36:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D16/claim",
+        "b": "D37/claim",
+        "expected": false,
+        "reason": "条件のLEとGE",
+        "a_key": "D16:n9",
+        "b_key": "D37:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D16/claim",
+        "expected": false,
+        "reason": "条件なしと条件あり",
+        "a_key": "D01:n6",
+        "b_key": "D16:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D18/claim",
+        "b": "D38/claim",
+        "expected": false,
+        "reason": "ANDとOR",
+        "a_key": "D18:n9",
+        "b_key": "D38:n9",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires",
+        "b": "D39/requires",
+        "expected": false,
+        "reason": "REQUIRESの向き",
+        "a_key": "D19:n4",
+        "b_key": "D39:n4",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D19/requires,causes",
+        "b": "D39/requires,causes",
+        "expected": false,
+        "reason": "2CLAIMの必要条件の向き",
+        "a_key": "D19:n4,n8",
+        "b_key": "D39:n4,n8",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D40/claim",
+        "expected": false,
+        "reason": "明示AGENTという追加引数",
+        "a_key": "D01:n6",
+        "b_key": "D40:n7",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D53/claim",
+        "expected": false,
+        "reason": "ENTITY二つを一つへ潰してはならない",
+        "a_key": "D01:n6",
+        "b_key": "D53:n5",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D56/claim",
+        "expected": false,
+        "reason": "単位不明と明示分。推測一致はしない",
+        "a_key": "D01:n6",
+        "b_key": "D56:n6",
+        "actual": true,
+        "status": "incorrect"
+      },
+      {
+        "a": "D01/claim",
+        "b": "D54/claim",
+        "expected": false,
+        "reason": "減少と増えない",
+        "a_key": "D01:n6",
+        "b_key": "D54:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D51/claim",
+        "b": "D52/claim",
+        "expected": false,
+        "reason": "surfaceだけは同じでも比較と適合確認",
+        "a_key": "D51:n6",
+        "b_key": "D52:n6",
+        "actual": false,
+        "status": "correct"
+      },
+      {
+        "a": "D43/claim",
+        "b": "D04/claim",
+        "expected": false,
+        "reason": "校正と測定",
+        "a_key": "D43:n6",
+        "b_key": "D04:n6",
+        "actual": false,
+        "status": "correct"
+      }
+    ],
+    "risk_probes": [
+      {
+        "a": "D01/claim",
+        "b": "D47/claim",
+        "semantic_expectation": "原文上は断定と可能性が異なる",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D01/claim",
+        "b": "D48/claim",
+        "semantic_expectation": "推奨という周辺記述が比較に残らない",
+        "expected_structural_match": true,
+        "actual": true
+      },
+      {
+        "a": "D49/claim",
+        "b": "D50/claim",
+        "semantic_expectation": "変動と一定化は別の変化。意味上は不一致",
+        "expected_structural_match": true,
+        "semantic_match_target": false,
+        "actual": true
+      },
+      {
+        "a": "D33/claim",
+        "b": "D55/claim",
+        "semantic_expectation": "単純否定の意味は同じだがNOTとpolarityの表現差",
+        "expected_structural_match": false,
+        "semantic_match_target": true,
+        "actual": false
+      }
+    ]
+  }
+}

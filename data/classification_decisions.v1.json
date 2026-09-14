@@ -1,0 +1,21 @@
+{
+  "description": "現在のアシスタントが文脈を読んで選択した注釈。左のIDは固定辞書内ID。右の参照はannotation_index.jsonの補助名。プログラムによる意味推論ではない。",
+  "groups": [
+    {"concept_id":"A001","rationale":"対象の適合や状態を確かめる操作。対象名によらず適合確認。","refs":"D01/action D02/action D10/action D11/action D16/action D17/action D18/verify D19/verify D20/verify D21/verify D25/action D33/action D34/action D35/action D36/action D37/action D38/verify D39/verify D40/action D41/verify D42/first_action D42/second_action D47/action D48/action D53/action D54/action D55/action D56/action"},
+    {"concept_id":"A001","rationale":"原文は基準に合うかを調べる操作。D51の同じsurfaceとは違い、対象間の差の調査ではない。","refs":"D52/action"},
+    {"concept_id":"A002","rationale":"稼働・運転中の様子を捉える観察。適合判定や数値取得は記載されていない。","refs":"D03/action D26/action"},
+    {"concept_id":"A003","rationale":"対象を数値として測り取る測定。標準と測定器の対応づけは含まない。","refs":"D04/action D27/action"},
+    {"concept_id":"A004","rationale":"複数の候補の差異や共通点を調べる操作。","refs":"D05/action D28/action"},
+    {"concept_id":"A004","rationale":"surfaceは確認するだが、原文は二つの見積書の差を調べることを指定。A001ではなくA004。","refs":"D51/action"},
+    {"concept_id":"A005","rationale":"散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。","refs":"D06/action D07/action D18/gather D19/gather D20/gather D29/action D38/gather D39/gather D41/gather"},
+    {"concept_id":"A006","rationale":"道具・手段を作業に用いる操作。具体的な対象はENTITYに保持。","refs":"D08/action D09/action D15/action D21/use D22/use D30/action"},
+    {"concept_id":"Q001","rationale":"原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。","refs":"D01/quantity D02/quantity D03/quantity D04/quantity D05/quantity D06/quantity D07/quantity D08/quantity D09/quantity D12/quantity D13/quantity D14/quantity D16/quantity D17/quantity D18/quantity D19/quantity D20/quantity D25/quantity D26/quantity D27/quantity D28/quantity D29/quantity D30/quantity D31/quantity D32/quantity D33/quantity D34/quantity D35/quantity D36/quantity D37/quantity D38/quantity D39/quantity D40/quantity D41/quantity D42/first_quantity D42/second_quantity D43/quantity D44/quantity D47/quantity D48/quantity D49/quantity D50/quantity D51/quantity D52/quantity D53/quantity D54/quantity D55/quantity D56/quantity"},
+    {"concept_id":"Q002","rationale":"使える時間の枠を表す。実行所要時間ではない。","refs":"D10/quantity"},
+    {"concept_id":"Q003","rationale":"実行するために必要な時間の要求量を表す。実行実績ではない。","refs":"D11/quantity"},
+    {"concept_id":"Q004","rationale":"対象の熱さ冷たさを表す温度。条件中の量も含め、unitは別に保持。","refs":"D15/quantity D16/temp D17/temp D36/temp D37/temp D49/temp D50/temp"},
+    {"concept_id":"S001","rationale":"壊れて形や機能が損なわれる状態。破損、損傷、壊れているの言い換え。","refs":"D12/state D13/state D22/damage D23/damage D31/state"},
+    {"concept_id":"S002","rationale":"活動の進行が予定や期待より遅い状態。単なる時間の増加とは区別。","refs":"D14/state D32/state"},
+    {"concept_id":"S003","rationale":"通常と異なる音が発生している手がかりの状態。破損状態そのものではない。","refs":"D23/noise"},
+    {"concept_id":null,"rationale":"標準と測定器の値との対応関係を定める校正。測定・比較・確認の一つに押し込むと操作の意味が落ちるため、固定v1では該当なし。","refs":"D43/action D44/action"}
+  ]
+}

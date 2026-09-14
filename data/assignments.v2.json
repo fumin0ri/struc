@@ -1,0 +1,715 @@
+{
+  "dictionary_version": "shared-1.1",
+  "dictionary_sha256": "8401df74a629f305fe50e6c06c6630c4f7dd6f5747baa7a6e9655bddd29f13ea",
+  "vocabulary_sha256": "da722c20539b786688cfa1b14048e55791e8d29203ff4269f32c773884d430c4",
+  "assignments": [
+    {
+      "document_id": "D01",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D01",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D02",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D02",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D03",
+      "node_id": "n2",
+      "concept_id": "A002",
+      "rationale": "稼働・運転中の様子を捉える観察。適合判定や数値取得は記載されていない。"
+    },
+    {
+      "document_id": "D03",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D04",
+      "node_id": "n2",
+      "concept_id": "A003",
+      "rationale": "対象を数値として測り取る測定。標準と測定器の対応づけは含まない。"
+    },
+    {
+      "document_id": "D04",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D05",
+      "node_id": "n2",
+      "concept_id": "A004",
+      "rationale": "複数の候補の差異や共通点を調べる操作。"
+    },
+    {
+      "document_id": "D05",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D06",
+      "node_id": "n2",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D06",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D07",
+      "node_id": "n2",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D07",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D08",
+      "node_id": "n2",
+      "concept_id": "A006",
+      "rationale": "道具・手段を作業に用いる操作。具体的な対象はENTITYに保持。"
+    },
+    {
+      "document_id": "D08",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D09",
+      "node_id": "n2",
+      "concept_id": "A006",
+      "rationale": "道具・手段を作業に用いる操作。具体的な対象はENTITYに保持。"
+    },
+    {
+      "document_id": "D09",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D10",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D10",
+      "node_id": "n4",
+      "concept_id": "Q002",
+      "rationale": "使える時間の枠を表す。実行所要時間ではない。"
+    },
+    {
+      "document_id": "D11",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D11",
+      "node_id": "n4",
+      "concept_id": "Q003",
+      "rationale": "実行するために必要な時間の要求量を表す。実行実績ではない。"
+    },
+    {
+      "document_id": "D12",
+      "node_id": "n2",
+      "concept_id": "S001",
+      "rationale": "壊れて形や機能が損なわれる状態。破損、損傷、壊れているの言い換え。"
+    },
+    {
+      "document_id": "D12",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D13",
+      "node_id": "n2",
+      "concept_id": "S001",
+      "rationale": "壊れて形や機能が損なわれる状態。破損、損傷、壊れているの言い換え。"
+    },
+    {
+      "document_id": "D13",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D14",
+      "node_id": "n2",
+      "concept_id": "S002",
+      "rationale": "活動の進行が予定や期待より遅い状態。単なる時間の増加とは区別。"
+    },
+    {
+      "document_id": "D14",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D15",
+      "node_id": "n2",
+      "concept_id": "A006",
+      "rationale": "道具・手段を作業に用いる操作。具体的な対象はENTITYに保持。"
+    },
+    {
+      "document_id": "D15",
+      "node_id": "n4",
+      "concept_id": "Q004",
+      "rationale": "対象の熱さ冷たさを表す温度。条件中の量も含め、unitは別に保持。"
+    },
+    {
+      "document_id": "D16",
+      "node_id": "n2",
+      "concept_id": "Q004",
+      "rationale": "対象の熱さ冷たさを表す温度。条件中の量も含め、unitは別に保持。"
+    },
+    {
+      "document_id": "D16",
+      "node_id": "n5",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D16",
+      "node_id": "n7",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D17",
+      "node_id": "n2",
+      "concept_id": "Q004",
+      "rationale": "対象の熱さ冷たさを表す温度。条件中の量も含め、unitは別に保持。"
+    },
+    {
+      "document_id": "D17",
+      "node_id": "n5",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D17",
+      "node_id": "n7",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D18",
+      "node_id": "n3",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D18",
+      "node_id": "n4",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D18",
+      "node_id": "n7",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D19",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D19",
+      "node_id": "n3",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D19",
+      "node_id": "n6",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D20",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D20",
+      "node_id": "n3",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D20",
+      "node_id": "n6",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D21",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D21",
+      "node_id": "n3",
+      "concept_id": "A006",
+      "rationale": "道具・手段を作業に用いる操作。具体的な対象はENTITYに保持。"
+    },
+    {
+      "document_id": "D22",
+      "node_id": "n2",
+      "concept_id": "A006",
+      "rationale": "道具・手段を作業に用いる操作。具体的な対象はENTITYに保持。"
+    },
+    {
+      "document_id": "D22",
+      "node_id": "n4",
+      "concept_id": "S001",
+      "rationale": "壊れて形や機能が損なわれる状態。破損、損傷、壊れているの言い換え。"
+    },
+    {
+      "document_id": "D23",
+      "node_id": "n2",
+      "concept_id": "S003",
+      "rationale": "通常と異なる音が発生している手がかりの状態。破損状態そのものではない。"
+    },
+    {
+      "document_id": "D23",
+      "node_id": "n3",
+      "concept_id": "S001",
+      "rationale": "壊れて形や機能が損なわれる状態。破損、損傷、壊れているの言い換え。"
+    },
+    {
+      "document_id": "D25",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D25",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D26",
+      "node_id": "n2",
+      "concept_id": "A002",
+      "rationale": "稼働・運転中の様子を捉える観察。適合判定や数値取得は記載されていない。"
+    },
+    {
+      "document_id": "D26",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D27",
+      "node_id": "n2",
+      "concept_id": "A003",
+      "rationale": "対象を数値として測り取る測定。標準と測定器の対応づけは含まない。"
+    },
+    {
+      "document_id": "D27",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D28",
+      "node_id": "n2",
+      "concept_id": "A004",
+      "rationale": "複数の候補の差異や共通点を調べる操作。"
+    },
+    {
+      "document_id": "D28",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D29",
+      "node_id": "n2",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D29",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D30",
+      "node_id": "n2",
+      "concept_id": "A006",
+      "rationale": "道具・手段を作業に用いる操作。具体的な対象はENTITYに保持。"
+    },
+    {
+      "document_id": "D30",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D31",
+      "node_id": "n2",
+      "concept_id": "S001",
+      "rationale": "壊れて形や機能が損なわれる状態。破損、損傷、壊れているの言い換え。"
+    },
+    {
+      "document_id": "D31",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D32",
+      "node_id": "n2",
+      "concept_id": "S002",
+      "rationale": "活動の進行が予定や期待より遅い状態。単なる時間の増加とは区別。"
+    },
+    {
+      "document_id": "D32",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D33",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D33",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D34",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D34",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D35",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D35",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D36",
+      "node_id": "n2",
+      "concept_id": "Q004",
+      "rationale": "対象の熱さ冷たさを表す温度。条件中の量も含め、unitは別に保持。"
+    },
+    {
+      "document_id": "D36",
+      "node_id": "n5",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D36",
+      "node_id": "n7",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D37",
+      "node_id": "n2",
+      "concept_id": "Q004",
+      "rationale": "対象の熱さ冷たさを表す温度。条件中の量も含め、unitは別に保持。"
+    },
+    {
+      "document_id": "D37",
+      "node_id": "n5",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D37",
+      "node_id": "n7",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D38",
+      "node_id": "n3",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D38",
+      "node_id": "n4",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D38",
+      "node_id": "n7",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D39",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D39",
+      "node_id": "n3",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D39",
+      "node_id": "n6",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D40",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D40",
+      "node_id": "n5",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D41",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D41",
+      "node_id": "n3",
+      "concept_id": "A005",
+      "rationale": "散在する情報や道具を集める操作。集約もこの原文では各所の資料を集める意味と注釈した。"
+    },
+    {
+      "document_id": "D41",
+      "node_id": "n6",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D42",
+      "node_id": "n10",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D42",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D42",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D42",
+      "node_id": "n8",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D43",
+      "node_id": "n2",
+      "concept_id": "A007",
+      "rationale": "固定した改訂辞書の校正に適合。標準と測定器の対応関係を定める。"
+    },
+    {
+      "document_id": "D43",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D44",
+      "node_id": "n2",
+      "concept_id": "A007",
+      "rationale": "固定した改訂辞書の校正に適合。標準と測定器の対応関係を定める。"
+    },
+    {
+      "document_id": "D44",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D47",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D47",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D48",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D48",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D49",
+      "node_id": "n2",
+      "concept_id": "Q004",
+      "rationale": "対象の熱さ冷たさを表す温度。条件中の量も含め、unitは別に保持。"
+    },
+    {
+      "document_id": "D49",
+      "node_id": "n5",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D50",
+      "node_id": "n2",
+      "concept_id": "Q004",
+      "rationale": "対象の熱さ冷たさを表す温度。条件中の量も含め、unitは別に保持。"
+    },
+    {
+      "document_id": "D50",
+      "node_id": "n5",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D51",
+      "node_id": "n2",
+      "concept_id": "A004",
+      "rationale": "surfaceは確認するだが、原文は二つの見積書の差を調べることを指定。A001ではなくA004。"
+    },
+    {
+      "document_id": "D51",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D52",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "原文は基準に合うかを調べる操作。D51の同じsurfaceとは違い、対象間の差の調査ではない。"
+    },
+    {
+      "document_id": "D52",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D53",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D53",
+      "node_id": "n3",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D54",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D54",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D55",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D55",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    },
+    {
+      "document_id": "D56",
+      "node_id": "n2",
+      "concept_id": "A001",
+      "rationale": "対象の適合や状態を確かめる操作。対象名によらず適合確認。"
+    },
+    {
+      "document_id": "D56",
+      "node_id": "n4",
+      "concept_id": "Q001",
+      "rationale": "原文で活動にかかる時間を表す。必要とされる要求量や利用可能な枠とは区別。"
+    }
+  ]
+}

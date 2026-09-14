@@ -1,0 +1,37 @@
+test_random_graphs_against_all_permutations_100_pairs (test_pipeline.ExactMatcherTests.test_random_graphs_against_all_permutations_100_pairs) ... ok
+test_same_signature_regular_graphs_are_not_necessarily_isomorphic (test_pipeline.ExactMatcherTests.test_same_signature_regular_graphs_are_not_necessarily_isomorphic) ... ok
+test_all_saved_graphs_and_normalized_integrity (test_pipeline.PipelineTests.test_all_saved_graphs_and_normalized_integrity) ... ok
+test_bijection_entity_identity (test_pipeline.PipelineTests.test_bijection_entity_identity) ... ok
+test_change_quantity_required (test_pipeline.PipelineTests.test_change_quantity_required) ... ok
+test_claim_cardinality (test_pipeline.PipelineTests.test_claim_cardinality) ... ok
+test_closure_keeps_all_arguments_conditions_and_logic_members (test_pipeline.PipelineTests.test_closure_keeps_all_arguments_conditions_and_logic_members) ... ok
+test_comparison_value_and_fields (test_pipeline.PipelineTests.test_comparison_value_and_fields) ... ok
+test_connected_two_claims_and_disconnected_claims (test_pipeline.PipelineTests.test_connected_two_claims_and_disconnected_claims) ... ok
+test_dangling_relation (test_pipeline.PipelineTests.test_dangling_relation) ... ok
+test_dictionary_duplicate_and_wrong_type (test_pipeline.PipelineTests.test_dictionary_duplicate_and_wrong_type) ... ok
+test_document_id_and_source_integrity (test_pipeline.PipelineTests.test_document_id_and_source_integrity) ... ok
+test_duplicate_node (test_pipeline.PipelineTests.test_duplicate_node) ... ok
+test_duplicate_relation (test_pipeline.PipelineTests.test_duplicate_relation) ... ok
+test_endpoint_type (test_pipeline.PipelineTests.test_endpoint_type) ... ok
+test_fixed_dictionary_no_new_ids_and_assignment_completeness (test_pipeline.PipelineTests.test_fixed_dictionary_no_new_ids_and_assignment_completeness) ... ok
+test_invalid_enums_and_unit (test_pipeline.PipelineTests.test_invalid_enums_and_unit) ... ok
+test_invalid_surface (test_pipeline.PipelineTests.test_invalid_surface) ... ok
+test_known_representation_limits_are_visible (test_pipeline.PipelineTests.test_known_representation_limits_are_visible) ... ok
+test_literal_attributes_and_type_boundaries (test_pipeline.PipelineTests.test_literal_attributes_and_type_boundaries) ... ok
+test_logic_cardinality_and_cycle (test_pipeline.PipelineTests.test_logic_cardinality_and_cycle) ... ok
+test_missing_fields_and_null_meaning (test_pipeline.PipelineTests.test_missing_fields_and_null_meaning) ... ok
+test_multiple_bearers_rejected_missing_bearer_allowed (test_pipeline.PipelineTests.test_multiple_bearers_rejected_missing_bearer_allowed) ... ok
+test_no_claim_documents_saved_not_collected (test_pipeline.PipelineTests.test_no_claim_documents_saved_not_collected) ... ok
+test_normalization_preserves_original_and_never_mutates_input (test_pipeline.PipelineTests.test_normalization_preserves_original_and_never_mutates_input) ... ok
+test_null_in_condition_blocks_whole_fragment (test_pipeline.PipelineTests.test_null_in_condition_blocks_whole_fragment) ... ok
+test_null_is_deferred_not_a_wildcard (test_pipeline.PipelineTests.test_null_is_deferred_not_a_wildcard) ... ok
+test_role_direction_and_predicate_are_strict (test_pipeline.PipelineTests.test_role_direction_and_predicate_are_strict) ... ok
+test_strict_json_rejects_duplicate_properties_nan (test_pipeline.PipelineTests.test_strict_json_rejects_duplicate_properties_nan) ... ok
+test_support_documents_and_occurrences_differ (test_pipeline.PipelineTests.test_support_documents_and_occurrences_differ) ... ok
+test_unknown_fields_and_raw_concepts (test_pipeline.PipelineTests.test_unknown_fields_and_raw_concepts) ... ok
+test_vocabulary_dedup_context_and_condition (test_pipeline.PipelineTests.test_vocabulary_dedup_context_and_condition) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.232s
+
+OK

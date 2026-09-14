@@ -1,0 +1,199 @@
+[
+  {
+    "pattern_id": "P001",
+    "summary": "適合確認 → 実行所要時間の減少",
+    "claim_count": 1,
+    "documents": [
+      "D01",
+      "D02",
+      "D19",
+      "D20",
+      "D25",
+      "D39",
+      "D41",
+      "D42",
+      "D47",
+      "D48",
+      "D52"
+    ],
+    "support_count": 11,
+    "occurrence_count": 12,
+    "review": "言い換えの統合は注釈意図に合う。D47の可能性・D48の推奨は原文での区別が必要。D39は1CLAIMだけ一致し、2CLAIM全体は一致しない。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P002",
+    "summary": "観察 → 実行所要時間の減少",
+    "claim_count": 1,
+    "documents": [
+      "D03",
+      "D26"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "review": "観察する／様子を見るを統合。確認や測定とは別概念。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P003",
+    "summary": "測定 → 実行所要時間の減少",
+    "claim_count": 1,
+    "documents": [
+      "D04",
+      "D27"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "review": "測定する／計測するを統合。校正とは別概念。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P004",
+    "summary": "比較 → 実行所要時間の減少",
+    "claim_count": 1,
+    "documents": [
+      "D05",
+      "D28",
+      "D51"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "review": "比較する／比べる／差を確認するを文脈に従って統合。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P005",
+    "summary": "収集 → 実行所要時間の減少",
+    "claim_count": 1,
+    "documents": [
+      "D06",
+      "D07",
+      "D29"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "review": "集める／収集する／集約するを統合。ただし集約の意味は原文次第で、要約なら別概念。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P006",
+    "summary": "使用 → 実行所要時間の減少",
+    "claim_count": 1,
+    "documents": [
+      "D08",
+      "D09",
+      "D30"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "review": "使用する／活用する／用いるを統合。道具の転用可能性までは分からない。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P009",
+    "summary": "破損 → 実行所要時間の増加",
+    "claim_count": 1,
+    "documents": [
+      "D12",
+      "D13",
+      "D31"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "review": "破損している／壊れている／損傷しているを統合。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P010",
+    "summary": "遅延 → 実行所要時間の増加",
+    "claim_count": 1,
+    "documents": [
+      "D14",
+      "D32"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "review": "遅れている／遅延しているを統合。破損と区別。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P012",
+    "summary": "温度≦30度という条件下の適合確認 → 時間減少",
+    "claim_count": 1,
+    "documents": [
+      "D16",
+      "D17"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "review": "条件の量・値・単位・比較演算子と対象まで一致。D36/D37の条件違いは不一致。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P014",
+    "summary": "適合確認には収集が必要",
+    "claim_count": 1,
+    "documents": [
+      "D19",
+      "D20",
+      "D41"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "review": "REQUIRESのFROMは成立・実行する内容、TOは必要な操作。D39の逆向きとは一致しない。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P015",
+    "summary": "適合確認には収集が必要 ＋ 適合確認が時間を減らす",
+    "claim_count": 2,
+    "documents": [
+      "D19",
+      "D20",
+      "D41"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "review": "REQUIRESのFROMは成立・実行する内容、TOは必要な操作。D39の逆向きとは一致しない。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P028",
+    "summary": "校正 → 実行所要時間の減少",
+    "claim_count": 1,
+    "documents": [
+      "D43",
+      "D44"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "review": "初版で保留した二例を、改訂版の一つの追加概念で分類。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": false
+  },
+  {
+    "pattern_id": "P029",
+    "summary": "温度のOTHER変化 → 実行所要時間の増加",
+    "claim_count": 1,
+    "documents": [
+      "D49",
+      "D50"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "review": "意味上の誤一致。変動することと一定になることを同じ変化として扱っている。原理候補として自動採用しない。",
+    "reviewer": "same assistant that authored data; not independent",
+    "semantic_false_match": true
+  }
+]

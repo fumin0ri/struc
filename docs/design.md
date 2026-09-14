@@ -1,0 +1,53 @@
+# 入出力と比較の設計
+
+## 入出力
+
+原文は `corpus.json` のdocument_idから参照します。split等の実験情報は原文台帳にだけ保存し、構造化JSONには入れません。
+rawグラフはユーザー仕様どおりdocument_id・nodes・relationsを持ち、concept_idを持ちません。
+正規化後はACTION、QUANTITY、定性的STATEにのみconcept_idを追加し、元のフィールドと接続を変更しません。CLAIMのない部分の語彙は対象外なので、そのノードのconcept_idはnullのままです。集計するnull率の母数はCLAIM関連の118ノードに限定します。
+
+辞書版・辞書ハッシュ・元グラフのハッシュは、グラフの外側の正規化ファイルのenvelopeに記録します。
+`validate_normalized_bundle` は辞書の版と内容、concept_idの所属型、concept_idを外したグラフのハッシュを検査します。
+割当ファイルのrationaleや語彙ファイルのcontextは後工程の監査データで、原文の構造化JSONの追加フィールドではありません。
+
+## 入力検査
+
+必須フィールド、余分なフィールド、JSON型、enum、surfaceが原文の連続部分か、IDの重複、参照先、接続roleと型、接続重複、CLAIMのFROM/TO各1とCONDITION最大1、CHANGEのQUANTITY1、BEARER/SUBJECT最大1、LOGICの要素数と循環を検査します。
+非有限数やJSONオブジェクト内のキー重複も拒否します。文字列値と数値は別ラベルとして扱います。
+
+BEARER/SUBJECTが不明な場合の欠落は最大1という契約に従って許可し、創作しません。この形式検査は原文の意味の正しさや否定の掛かり先を証明しません。
+
+## CLAIMを含む範囲
+
+各CLAIMから許可された出辺を再帰的にたどります。
+ACTIONの全AGENT/TARGET/ORIGIN/DESTINATION、CHANGEのQUANTITYとそのBEARER、STATEのSUBJECT、CLAIMのCONDITION、LOGICの全MEMBERとその先を含めます。
+ENTITYで止まり、ENTITYから入辺を逆にたどって別の無関係なACTIONを取り込むことはしません。
+
+2CLAIMの「連結」は、両CLAIMの引数閉包が少なくとも1ノードを共有することです。共有がENTITYだけでも対象になります。旧実装と同じ定義です。互いに独立したD42の2CLAIMは、2CLAIM断片を作りません。
+
+語彙はdocument_id/node_idにつき1行です。node_occurrence_countは1、claim_membership_countは所属するCLAIMの数、source_surface_occurrence_countはそのsurfaceが原文に現れる文字列上の回数です。共参照された同じノードを文字列の回数だけ複製しません。短文なので、周辺文脈として今回は原文全体を添えています。
+
+## 固定辞書
+
+初版と改訂版を別ファイルに保存します。分類時は登録済みかつ同型のID、またはnullのみ許可します。
+意味不明を文字列nullの共通概念に変換せず、nullを含む断片はstrictの比較を保留します。保留は不一致とは別です。
+改訂は未登録ノードをまとめて検討してから新しい辞書版として行います。ノードを分類しながら辞書を増やす機能はありません。
+
+## 厳密比較
+
+ノード数、辺数、比較ラベル別件数、role別件数は候補絞り込みの必要条件です。最終判定は全ノードの一対一対応と、ラベル・全辺のrole・向きの完全一致です。ラベル近傍で枝刈りした完全バックトラックを使い、候補署名だけでは一致としません。
+
+ENTITYの具体名、surface、meaningはstrictの比較キーに使いません。ENTITYの種類も存在しないため使いません。ENTITYの同一性は保ち、二つのENTITYを一つに対応させることを禁止します。
+ACTION/QUANTITY/定性的STATEの意味はconcept_id、それ以外の型はユーザー指定の属性で比較します。単位は推測・換算せず文字列一致です。
+
+「surface」方式でもENTITYは変数化し、ACTION/QUANTITY/定性的STATEのconcept_idだけをsurfaceに置き換えます。その他の属性や引数の保持条件はstrictと同じです。グラフの全surfaceの一致を要求する方式ではありません。
+
+条件を落とす等の比較は原因を調べるためのアブレーションです。通常の採用設定ではありません。
+
+## 集計・限界
+
+出現キーはdocument_idとCLAIMのroot集合です。同じroot集合をノードの対称性の数だけ複製しません。
+支持数は異なるdocument_idの数、出現数はroot集合の数です。同一内容の別document_idを自動で重複排除する機能はありません。
+1CLAIM断片とその上位の2CLAIM断片は重複して集計されるため、繰り返しパターン数を独立した原理数と解釈しません。
+
+最悪計算量は大きく、対象はCLAIM1〜2個の小さな断片です。大規模グラフの速度、任意サイズの最大共通部分グラフ、条件の論理的同値、単位換算、ENTITYの意味的な置換の妥当性、原文への忠実度の自動判定は実装していません。

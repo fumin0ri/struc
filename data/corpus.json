@@ -1,0 +1,338 @@
+[
+  {
+    "document_id": "D01",
+    "text": "部品を確認することが、組立作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D02",
+    "text": "申請書を点検することが、受付作業にかかる時間を短くする。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D03",
+    "text": "稼働中の設備を観察することが、保守作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D04",
+    "text": "部材を測定することが、加工作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D05",
+    "text": "複数の見積書を比較することが、選定作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D06",
+    "text": "記録を集めることが、監査作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D07",
+    "text": "各端末のログを収集することが、調査作業にかかる時間を短くする。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D08",
+    "text": "テンプレートを使用することが、文書作成の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D09",
+    "text": "治具を活用することが、組立作業にかかる時間を短くする。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D10",
+    "text": "部品を確認することが、組立作業に使える時間を増やす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D11",
+    "text": "部品を確認することが、組立作業に必要な時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D12",
+    "text": "設備が破損していることが、修復作業の所要時間を増やす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D13",
+    "text": "装置が壊れていることが、復旧作業にかかる時間を増やす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D14",
+    "text": "承認が遅れていることが、納品作業の所要時間を増やす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D15",
+    "text": "送風機を使用することが、装置の温度を下げる。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D16",
+    "text": "室内の温度が30度以下のとき、部品を確認することが、組立作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D17",
+    "text": "室内の温度が30度以下のとき、伝票を点検することが、仕分作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D18",
+    "text": "部品を確認することと工具を集めることが共同で、組立作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D19",
+    "text": "記録を確認するには、記録を集めることが必要だ。記録を確認することが、監査作業の所要時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D20",
+    "text": "ログを点検するには、ログを収集することが必要だ。ログを点検することが、調査作業にかかる時間を減らす。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D21",
+    "text": "部品を確認してから、部品を使用する。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D22",
+    "text": "梱包材を使用することが、製品の破損を防ぐ。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D23",
+    "text": "設備の異常音は、設備の破損を示す手がかりだ。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D24",
+    "text": "検査員は部品を確認する。机の上に工具がある。",
+    "split": "discovery",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D25",
+    "text": "請求書を確かめることが、支払処理に実際にかかる時間を短縮する。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D26",
+    "text": "運転中の装置の様子を見ることが、保守作業にかかる時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D27",
+    "text": "試料を計測することが、検査作業にかかる時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D28",
+    "text": "二つの設計案を比べることが、選定作業にかかる時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D29",
+    "text": "各支店の報告書を集約することが、決算作業にかかる時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D30",
+    "text": "ひな型を用いることが、報告書作成にかかる時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D31",
+    "text": "機械が損傷していることが、修理作業にかかる時間を増やす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D32",
+    "text": "配送が遅延していることが、補充作業にかかる時間を増やす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D33",
+    "text": "部品を確認しないことが、組立作業の所要時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D34",
+    "text": "部品の確認が原因で、組立作業の所要時間が減らない。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D35",
+    "text": "部品を確認することは、組立作業の所要時間が減る原因ではない。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D36",
+    "text": "室内の温度が40度以下のとき、部品を確認することが、組立作業の所要時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D37",
+    "text": "室内の温度が30度以上のとき、部品を確認することが、組立作業の所要時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D38",
+    "text": "部品を確認すること、または工具を集めることが、組立作業の所要時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D39",
+    "text": "記録を集めるには、記録を確認することが必要だ。記録を確認することが、監査作業の所要時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D40",
+    "text": "作業員が部品を確認することが、組立作業の所要時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D41",
+    "text": "報告書を確かめるには、報告書を集約することが必要だ。報告書を確かめることが、決算作業にかかる時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D42",
+    "text": "部品を確認することが、組立作業の所要時間を減らす。伝票を点検することが、仕分作業にかかる時間を短くする。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D43",
+    "text": "測定器を校正することが、検査作業の所要時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D44",
+    "text": "センサーの値と標準値との対応を定めることが、点検作業にかかる時間を減らす。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D45",
+    "text": "製品の破損を防ぐため、梱包材を使用する。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D46",
+    "text": "部品を確認するなら、記録を集める。",
+    "split": "additional",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D47",
+    "text": "部品を確認することが、組立作業の所要時間を減らすことがある。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D48",
+    "text": "部品の確認を推奨する。部品を確認することが、組立作業の所要時間を減らす。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D49",
+    "text": "装置の温度が変動することが、組立作業の所要時間を増やす。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D50",
+    "text": "装置の温度が一定になることが、組立作業の所要時間を増やす。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D51",
+    "text": "二つの見積書について、差を確認することが、選定作業の所要時間を減らす。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D52",
+    "text": "見積書について、基準に合うか確認することが、選定作業の所要時間を減らす。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D53",
+    "text": "組立作業を確認することが、組立作業の所要時間を減らす。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D54",
+    "text": "部品の確認が原因で、組立作業の所要時間が増えない。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D55",
+    "text": "部品の確認をしないことが、組立作業の所要時間を減らす。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  },
+  {
+    "document_id": "D56",
+    "text": "部品を確認することが、分で表す組立作業の所要時間を減らす。",
+    "split": "diagnostic",
+    "origin": "synthetic; assistant-authored; not a factual effectiveness claim"
+  }
+]

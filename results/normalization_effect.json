@@ -1,0 +1,219 @@
+[
+  {
+    "pattern_id": "P001",
+    "claim_count": 1,
+    "documents": [
+      "D01",
+      "D02",
+      "D19",
+      "D20",
+      "D25",
+      "D39",
+      "D41",
+      "D42",
+      "D47",
+      "D48",
+      "D52"
+    ],
+    "support_count": 11,
+    "occurrence_count": 12,
+    "surface_group_count": 4,
+    "merged_surface_groups": [
+      "P001",
+      "P002",
+      "P026",
+      "P044"
+    ]
+  },
+  {
+    "pattern_id": "P002",
+    "claim_count": 1,
+    "documents": [
+      "D03",
+      "D26"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "surface_group_count": 2,
+    "merged_surface_groups": [
+      "P003",
+      "P027"
+    ]
+  },
+  {
+    "pattern_id": "P003",
+    "claim_count": 1,
+    "documents": [
+      "D04",
+      "D27"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "surface_group_count": 2,
+    "merged_surface_groups": [
+      "P004",
+      "P028"
+    ]
+  },
+  {
+    "pattern_id": "P004",
+    "claim_count": 1,
+    "documents": [
+      "D05",
+      "D28",
+      "D51"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "surface_group_count": 3,
+    "merged_surface_groups": [
+      "P001",
+      "P005",
+      "P029"
+    ]
+  },
+  {
+    "pattern_id": "P005",
+    "claim_count": 1,
+    "documents": [
+      "D06",
+      "D07",
+      "D29"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "surface_group_count": 3,
+    "merged_surface_groups": [
+      "P006",
+      "P007",
+      "P030"
+    ]
+  },
+  {
+    "pattern_id": "P006",
+    "claim_count": 1,
+    "documents": [
+      "D08",
+      "D09",
+      "D30"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "surface_group_count": 3,
+    "merged_surface_groups": [
+      "P008",
+      "P009",
+      "P031"
+    ]
+  },
+  {
+    "pattern_id": "P009",
+    "claim_count": 1,
+    "documents": [
+      "D12",
+      "D13",
+      "D31"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "surface_group_count": 3,
+    "merged_surface_groups": [
+      "P012",
+      "P013",
+      "P032"
+    ]
+  },
+  {
+    "pattern_id": "P010",
+    "claim_count": 1,
+    "documents": [
+      "D14",
+      "D32"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "surface_group_count": 2,
+    "merged_surface_groups": [
+      "P014",
+      "P033"
+    ]
+  },
+  {
+    "pattern_id": "P012",
+    "claim_count": 1,
+    "documents": [
+      "D16",
+      "D17"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "surface_group_count": 2,
+    "merged_surface_groups": [
+      "P016",
+      "P017"
+    ]
+  },
+  {
+    "pattern_id": "P014",
+    "claim_count": 1,
+    "documents": [
+      "D19",
+      "D20",
+      "D41"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "surface_group_count": 3,
+    "merged_surface_groups": [
+      "P019",
+      "P021",
+      "P043"
+    ]
+  },
+  {
+    "pattern_id": "P015",
+    "claim_count": 2,
+    "documents": [
+      "D19",
+      "D20",
+      "D41"
+    ],
+    "support_count": 3,
+    "occurrence_count": 3,
+    "surface_group_count": 3,
+    "merged_surface_groups": [
+      "P020",
+      "P022",
+      "P045"
+    ]
+  },
+  {
+    "pattern_id": "P028",
+    "claim_count": 1,
+    "documents": [
+      "D43",
+      "D44"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "surface_group_count": 2,
+    "merged_surface_groups": [
+      "P046",
+      "P047"
+    ]
+  },
+  {
+    "pattern_id": "P029",
+    "claim_count": 1,
+    "documents": [
+      "D49",
+      "D50"
+    ],
+    "support_count": 2,
+    "occurrence_count": 2,
+    "surface_group_count": 1,
+    "merged_surface_groups": [
+      "P048"
+    ]
+  }
+]

@@ -1,0 +1,5160 @@
+{
+  "rows": [
+    {
+      "document_id": "D01",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "確認する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "部品"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することが、組立作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D01",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        16
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "組立作業"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することが、組立作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D02",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "点検する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        4
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "申請書"
+        }
+      ],
+      "context": {
+        "text": "申請書を点検することが、受付作業にかかる時間を短くする。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "申請書"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "点検する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "受付作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "短くする",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "短くする",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D02",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "かかる時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        17
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "受付作業"
+        }
+      ],
+      "context": {
+        "text": "申請書を点検することが、受付作業にかかる時間を短くする。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "申請書"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "点検する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "受付作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "短くする",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "短くする",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D03",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "観察する",
+      "meaning": "対象の様子を見て変化や特徴を捉える",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        7
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "設備"
+        }
+      ],
+      "context": {
+        "text": "稼働中の設備を観察することが、保守作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "設備"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "観察する",
+            "meaning": "対象の様子を見て変化や特徴を捉える",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "保守作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D03",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        20
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "保守作業"
+        }
+      ],
+      "context": {
+        "text": "稼働中の設備を観察することが、保守作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "設備"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "観察する",
+            "meaning": "対象の様子を見て変化や特徴を捉える",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "保守作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D04",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "測定する",
+      "meaning": "対象の属性を数値として測り取る",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "部材"
+        }
+      ],
+      "context": {
+        "text": "部材を測定することが、加工作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部材"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "測定する",
+            "meaning": "対象の属性を数値として測り取る",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "加工作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D04",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        16
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "加工作業"
+        }
+      ],
+      "context": {
+        "text": "部材を測定することが、加工作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部材"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "測定する",
+            "meaning": "対象の属性を数値として測り取る",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "加工作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D05",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "比較する",
+      "meaning": "複数の対象の共通点や相違点を調べる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        7
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "複数の見積書"
+        }
+      ],
+      "context": {
+        "text": "複数の見積書を比較することが、選定作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "複数の見積書"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "比較する",
+            "meaning": "複数の対象の共通点や相違点を調べる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "選定作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D05",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        20
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "選定作業"
+        }
+      ],
+      "context": {
+        "text": "複数の見積書を比較することが、選定作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "複数の見積書"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "比較する",
+            "meaning": "複数の対象の共通点や相違点を調べる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "選定作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D06",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "集める",
+      "meaning": "散在するものを一か所に集める",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "記録"
+        }
+      ],
+      "context": {
+        "text": "記録を集めることが、監査作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "記録"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "集める",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "監査作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D06",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        15
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "監査作業"
+        }
+      ],
+      "context": {
+        "text": "記録を集めることが、監査作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "記録"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "集める",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "監査作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D07",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "収集する",
+      "meaning": "散在するものを一か所に集める",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        7
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "ログ"
+        }
+      ],
+      "context": {
+        "text": "各端末のログを収集することが、調査作業にかかる時間を短くする。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "ログ"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "収集する",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "調査作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "短くする",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "短くする",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D07",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "かかる時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        20
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "調査作業"
+        }
+      ],
+      "context": {
+        "text": "各端末のログを収集することが、調査作業にかかる時間を短くする。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "ログ"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "収集する",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "調査作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "短くする",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "短くする",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D08",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "使用する",
+      "meaning": "手段や道具を作業に用いる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        7
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "テンプレート"
+        }
+      ],
+      "context": {
+        "text": "テンプレートを使用することが、文書作成の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "テンプレート"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "使用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "文書作成"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D08",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        20
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "文書作成"
+        }
+      ],
+      "context": {
+        "text": "テンプレートを使用することが、文書作成の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "テンプレート"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "使用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "文書作成"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D09",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "活用する",
+      "meaning": "手段や道具を作業に用いる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "治具"
+        }
+      ],
+      "context": {
+        "text": "治具を活用することが、組立作業にかかる時間を短くする。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "治具"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "活用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "短くする",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "短くする",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D09",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "かかる時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        16
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "組立作業"
+        }
+      ],
+      "context": {
+        "text": "治具を活用することが、組立作業にかかる時間を短くする。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "治具"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "活用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "短くする",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "短くする",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D10",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "確認する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "部品"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することが、組立作業に使える時間を増やす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "使える時間",
+            "meaning": "活動のために使える時間の枠",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "増やす",
+            "direction": "INCREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "増やす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D10",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "使える時間",
+      "meaning": "活動のために使える時間の枠",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        16
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "組立作業"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することが、組立作業に使える時間を増やす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "使える時間",
+            "meaning": "活動のために使える時間の枠",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "増やす",
+            "direction": "INCREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "増やす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D11",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "確認する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "部品"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することが、組立作業に必要な時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "必要な時間",
+            "meaning": "活動を実行するために必要とされる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D11",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "必要な時間",
+      "meaning": "活動を実行するために必要とされる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        16
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "組立作業"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することが、組立作業に必要な時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "必要な時間",
+            "meaning": "活動を実行するために必要とされる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D12",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "STATE",
+      "surface": "破損している",
+      "meaning": "物が壊れて機能や形が損なわれている",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "SUBJECT",
+          "to": "n1",
+          "target_surface": "設備"
+        }
+      ],
+      "context": {
+        "text": "設備が破損していることが、修復作業の所要時間を増やす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "設備"
+          },
+          {
+            "id": "n2",
+            "type": "STATE",
+            "surface": "破損している",
+            "form": "QUALITATIVE",
+            "meaning": "物が壊れて機能や形が損なわれている",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "修復作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "増やす",
+            "direction": "INCREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "増やす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D12",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        18
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "修復作業"
+        }
+      ],
+      "context": {
+        "text": "設備が破損していることが、修復作業の所要時間を増やす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "設備"
+          },
+          {
+            "id": "n2",
+            "type": "STATE",
+            "surface": "破損している",
+            "form": "QUALITATIVE",
+            "meaning": "物が壊れて機能や形が損なわれている",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "修復作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "増やす",
+            "direction": "INCREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "増やす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D13",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "STATE",
+      "surface": "壊れている",
+      "meaning": "物が壊れて機能や形が損なわれている",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "SUBJECT",
+          "to": "n1",
+          "target_surface": "装置"
+        }
+      ],
+      "context": {
+        "text": "装置が壊れていることが、復旧作業にかかる時間を増やす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "装置"
+          },
+          {
+            "id": "n2",
+            "type": "STATE",
+            "surface": "壊れている",
+            "form": "QUALITATIVE",
+            "meaning": "物が壊れて機能や形が損なわれている",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "復旧作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "増やす",
+            "direction": "INCREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "増やす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D13",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "かかる時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        17
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "復旧作業"
+        }
+      ],
+      "context": {
+        "text": "装置が壊れていることが、復旧作業にかかる時間を増やす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "装置"
+          },
+          {
+            "id": "n2",
+            "type": "STATE",
+            "surface": "壊れている",
+            "form": "QUALITATIVE",
+            "meaning": "物が壊れて機能や形が損なわれている",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "復旧作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "増やす",
+            "direction": "INCREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "増やす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D14",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "STATE",
+      "surface": "遅れている",
+      "meaning": "予定や期待した時点より進行が遅い",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "SUBJECT",
+          "to": "n1",
+          "target_surface": "承認"
+        }
+      ],
+      "context": {
+        "text": "承認が遅れていることが、納品作業の所要時間を増やす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "承認"
+          },
+          {
+            "id": "n2",
+            "type": "STATE",
+            "surface": "遅れている",
+            "form": "QUALITATIVE",
+            "meaning": "予定や期待した時点より進行が遅い",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "納品作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "増やす",
+            "direction": "INCREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "増やす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D14",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        17
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "納品作業"
+        }
+      ],
+      "context": {
+        "text": "承認が遅れていることが、納品作業の所要時間を増やす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "承認"
+          },
+          {
+            "id": "n2",
+            "type": "STATE",
+            "surface": "遅れている",
+            "form": "QUALITATIVE",
+            "meaning": "予定や期待した時点より進行が遅い",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "納品作業"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "増やす",
+            "direction": "INCREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "増やす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D15",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "使用する",
+      "meaning": "手段や道具を作業に用いる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        4
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "送風機"
+        }
+      ],
+      "context": {
+        "text": "送風機を使用することが、装置の温度を下げる。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "送風機"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "使用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "装置"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "温度",
+            "meaning": "対象の熱さ冷たさを表す量",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "下げる",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "下げる",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D15",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "温度",
+      "meaning": "対象の熱さ冷たさを表す量",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        15
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n6"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "BEARER",
+          "to": "n3",
+          "target_surface": "装置"
+        }
+      ],
+      "context": {
+        "text": "送風機を使用することが、装置の温度を下げる。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "送風機"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "使用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "装置"
+          },
+          {
+            "id": "n4",
+            "type": "QUANTITY",
+            "surface": "温度",
+            "meaning": "対象の熱さ冷たさを表す量",
+            "unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CHANGE",
+            "surface": "下げる",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "CLAIM",
+            "surface": "下げる",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "BEARER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "QUANTITY",
+            "to": "n4"
+          },
+          {
+            "from": "n6",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n6",
+            "role": "TO",
+            "to": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D16",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "温度",
+      "meaning": "対象の熱さ冷たさを表す量",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "BEARER",
+          "to": "n1",
+          "target_surface": "室内"
+        }
+      ],
+      "context": {
+        "text": "室内の温度が30度以下のとき、部品を確認することが、組立作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "室内"
+          },
+          {
+            "id": "n2",
+            "type": "QUANTITY",
+            "surface": "温度",
+            "meaning": "対象の熱さ冷たさを表す量",
+            "unit": "度"
+          },
+          {
+            "id": "n3",
+            "type": "STATE",
+            "surface": "30度以下",
+            "form": "COMPARISON",
+            "meaning": null,
+            "comparator": "LE",
+            "value": 30,
+            "value_unit": "度",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n5",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "BEARER",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "SUBJECT",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "TARGET",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          },
+          {
+            "from": "n9",
+            "role": "CONDITION",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D16",
+      "node_id": "n5",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "確認する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        18
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n5",
+          "role": "TARGET",
+          "to": "n4",
+          "target_surface": "部品"
+        }
+      ],
+      "context": {
+        "text": "室内の温度が30度以下のとき、部品を確認することが、組立作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "室内"
+          },
+          {
+            "id": "n2",
+            "type": "QUANTITY",
+            "surface": "温度",
+            "meaning": "対象の熱さ冷たさを表す量",
+            "unit": "度"
+          },
+          {
+            "id": "n3",
+            "type": "STATE",
+            "surface": "30度以下",
+            "form": "COMPARISON",
+            "meaning": null,
+            "comparator": "LE",
+            "value": 30,
+            "value_unit": "度",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n5",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "BEARER",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "SUBJECT",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "TARGET",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          },
+          {
+            "from": "n9",
+            "role": "CONDITION",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D16",
+      "node_id": "n7",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        31
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n7",
+          "role": "BEARER",
+          "to": "n6",
+          "target_surface": "組立作業"
+        }
+      ],
+      "context": {
+        "text": "室内の温度が30度以下のとき、部品を確認することが、組立作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "室内"
+          },
+          {
+            "id": "n2",
+            "type": "QUANTITY",
+            "surface": "温度",
+            "meaning": "対象の熱さ冷たさを表す量",
+            "unit": "度"
+          },
+          {
+            "id": "n3",
+            "type": "STATE",
+            "surface": "30度以下",
+            "form": "COMPARISON",
+            "meaning": null,
+            "comparator": "LE",
+            "value": 30,
+            "value_unit": "度",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n5",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "BEARER",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "SUBJECT",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "TARGET",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          },
+          {
+            "from": "n9",
+            "role": "CONDITION",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D17",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "温度",
+      "meaning": "対象の熱さ冷たさを表す量",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "BEARER",
+          "to": "n1",
+          "target_surface": "室内"
+        }
+      ],
+      "context": {
+        "text": "室内の温度が30度以下のとき、伝票を点検することが、仕分作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "室内"
+          },
+          {
+            "id": "n2",
+            "type": "QUANTITY",
+            "surface": "温度",
+            "meaning": "対象の熱さ冷たさを表す量",
+            "unit": "度"
+          },
+          {
+            "id": "n3",
+            "type": "STATE",
+            "surface": "30度以下",
+            "form": "COMPARISON",
+            "meaning": null,
+            "comparator": "LE",
+            "value": 30,
+            "value_unit": "度",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ENTITY",
+            "surface": "伝票"
+          },
+          {
+            "id": "n5",
+            "type": "ACTION",
+            "surface": "点検する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "仕分作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "BEARER",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "SUBJECT",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "TARGET",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          },
+          {
+            "from": "n9",
+            "role": "CONDITION",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D17",
+      "node_id": "n5",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "点検する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        18
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n5",
+          "role": "TARGET",
+          "to": "n4",
+          "target_surface": "伝票"
+        }
+      ],
+      "context": {
+        "text": "室内の温度が30度以下のとき、伝票を点検することが、仕分作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "室内"
+          },
+          {
+            "id": "n2",
+            "type": "QUANTITY",
+            "surface": "温度",
+            "meaning": "対象の熱さ冷たさを表す量",
+            "unit": "度"
+          },
+          {
+            "id": "n3",
+            "type": "STATE",
+            "surface": "30度以下",
+            "form": "COMPARISON",
+            "meaning": null,
+            "comparator": "LE",
+            "value": 30,
+            "value_unit": "度",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ENTITY",
+            "surface": "伝票"
+          },
+          {
+            "id": "n5",
+            "type": "ACTION",
+            "surface": "点検する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "仕分作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "BEARER",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "SUBJECT",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "TARGET",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          },
+          {
+            "from": "n9",
+            "role": "CONDITION",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D17",
+      "node_id": "n7",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        31
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n7",
+          "role": "BEARER",
+          "to": "n6",
+          "target_surface": "仕分作業"
+        }
+      ],
+      "context": {
+        "text": "室内の温度が30度以下のとき、伝票を点検することが、仕分作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "室内"
+          },
+          {
+            "id": "n2",
+            "type": "QUANTITY",
+            "surface": "温度",
+            "meaning": "対象の熱さ冷たさを表す量",
+            "unit": "度"
+          },
+          {
+            "id": "n3",
+            "type": "STATE",
+            "surface": "30度以下",
+            "form": "COMPARISON",
+            "meaning": null,
+            "comparator": "LE",
+            "value": 30,
+            "value_unit": "度",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ENTITY",
+            "surface": "伝票"
+          },
+          {
+            "id": "n5",
+            "type": "ACTION",
+            "surface": "点検する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "仕分作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "BEARER",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "SUBJECT",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "TARGET",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          },
+          {
+            "from": "n9",
+            "role": "CONDITION",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D18",
+      "node_id": "n3",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "確認する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n3",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "部品"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することと工具を集めることが共同で、組立作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ENTITY",
+            "surface": "工具"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ACTION",
+            "surface": "集める",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n5",
+            "type": "LOGIC",
+            "surface": "部品を確認することと工具を集めること",
+            "operator": "AND"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "TARGET",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "MEMBER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "MEMBER",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D18",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "集める",
+      "meaning": "散在するものを一か所に集める",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        13
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "TARGET",
+          "to": "n2",
+          "target_surface": "工具"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することと工具を集めることが共同で、組立作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ENTITY",
+            "surface": "工具"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ACTION",
+            "surface": "集める",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n5",
+            "type": "LOGIC",
+            "surface": "部品を確認することと工具を集めること",
+            "operator": "AND"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "TARGET",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "MEMBER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "MEMBER",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D18",
+      "node_id": "n7",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        28
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n9"
+      ],
+      "connections": [
+        {
+          "from": "n7",
+          "role": "BEARER",
+          "to": "n6",
+          "target_surface": "組立作業"
+        }
+      ],
+      "context": {
+        "text": "部品を確認することと工具を集めることが共同で、組立作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ENTITY",
+            "surface": "工具"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "ACTION",
+            "surface": "集める",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n5",
+            "type": "LOGIC",
+            "surface": "部品を確認することと工具を集めること",
+            "operator": "AND"
+          },
+          {
+            "id": "n6",
+            "type": "ENTITY",
+            "surface": "組立作業"
+          },
+          {
+            "id": "n7",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n8",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n9",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "TARGET",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "MEMBER",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "MEMBER",
+            "to": "n4"
+          },
+          {
+            "from": "n7",
+            "role": "BEARER",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "QUANTITY",
+            "to": "n7"
+          },
+          {
+            "from": "n9",
+            "role": "FROM",
+            "to": "n5"
+          },
+          {
+            "from": "n9",
+            "role": "TO",
+            "to": "n8"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D19",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "確認する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 2,
+      "surface_offsets": [
+        3,
+        26
+      ],
+      "claim_membership_count": 2,
+      "related_claim_ids": [
+        "n4",
+        "n8"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "記録"
+        }
+      ],
+      "context": {
+        "text": "記録を確認するには、記録を集めることが必要だ。記録を確認することが、監査作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "記録"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "集める",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "CLAIM",
+            "surface": "必要だ",
+            "predicate": "REQUIRES",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n5",
+            "type": "ENTITY",
+            "surface": "監査作業"
+          },
+          {
+            "id": "n6",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n7",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n8",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n4",
+            "role": "TO",
+            "to": "n3"
+          },
+          {
+            "from": "n6",
+            "role": "BEARER",
+            "to": "n5"
+          },
+          {
+            "from": "n7",
+            "role": "QUANTITY",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n8",
+            "role": "TO",
+            "to": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D19",
+      "node_id": "n3",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "集める",
+      "meaning": "散在するものを一か所に集める",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        13
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n4"
+      ],
+      "connections": [
+        {
+          "from": "n3",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "記録"
+        }
+      ],
+      "context": {
+        "text": "記録を確認するには、記録を集めることが必要だ。記録を確認することが、監査作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "記録"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "集める",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "CLAIM",
+            "surface": "必要だ",
+            "predicate": "REQUIRES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n4",
+            "role": "TO",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D19",
+      "node_id": "n6",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "所要時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        39
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n8"
+      ],
+      "connections": [
+        {
+          "from": "n6",
+          "role": "BEARER",
+          "to": "n5",
+          "target_surface": "監査作業"
+        }
+      ],
+      "context": {
+        "text": "記録を確認するには、記録を集めることが必要だ。記録を確認することが、監査作業の所要時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "記録"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n5",
+            "type": "ENTITY",
+            "surface": "監査作業"
+          },
+          {
+            "id": "n6",
+            "type": "QUANTITY",
+            "surface": "所要時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n7",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n8",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n6",
+            "role": "BEARER",
+            "to": "n5"
+          },
+          {
+            "from": "n7",
+            "role": "QUANTITY",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n8",
+            "role": "TO",
+            "to": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D20",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "点検する",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 2,
+      "surface_offsets": [
+        3,
+        27
+      ],
+      "claim_membership_count": 2,
+      "related_claim_ids": [
+        "n4",
+        "n8"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "ログ"
+        }
+      ],
+      "context": {
+        "text": "ログを点検するには、ログを収集することが必要だ。ログを点検することが、調査作業にかかる時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "ログ"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "点検する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "収集する",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "CLAIM",
+            "surface": "必要だ",
+            "predicate": "REQUIRES",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n5",
+            "type": "ENTITY",
+            "surface": "調査作業"
+          },
+          {
+            "id": "n6",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n7",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n8",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n4",
+            "role": "TO",
+            "to": "n3"
+          },
+          {
+            "from": "n6",
+            "role": "BEARER",
+            "to": "n5"
+          },
+          {
+            "from": "n7",
+            "role": "QUANTITY",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n8",
+            "role": "TO",
+            "to": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D20",
+      "node_id": "n3",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "収集する",
+      "meaning": "散在するものを一か所に集める",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        13
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n4"
+      ],
+      "connections": [
+        {
+          "from": "n3",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "ログ"
+        }
+      ],
+      "context": {
+        "text": "ログを点検するには、ログを収集することが必要だ。ログを点検することが、調査作業にかかる時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "ログ"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "点検する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "収集する",
+            "meaning": "散在するものを一か所に集める",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "CLAIM",
+            "surface": "必要だ",
+            "predicate": "REQUIRES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n4",
+            "role": "TO",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D20",
+      "node_id": "n6",
+      "split": "discovery",
+      "node_type": "QUANTITY",
+      "surface": "かかる時間",
+      "meaning": "活動の実行に実際にかかる時間",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        40
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n8"
+      ],
+      "connections": [
+        {
+          "from": "n6",
+          "role": "BEARER",
+          "to": "n5",
+          "target_surface": "調査作業"
+        }
+      ],
+      "context": {
+        "text": "ログを点検するには、ログを収集することが必要だ。ログを点検することが、調査作業にかかる時間を減らす。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "ログ"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "点検する",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n5",
+            "type": "ENTITY",
+            "surface": "調査作業"
+          },
+          {
+            "id": "n6",
+            "type": "QUANTITY",
+            "surface": "かかる時間",
+            "meaning": "活動の実行に実際にかかる時間",
+            "unit": null
+          },
+          {
+            "id": "n7",
+            "type": "CHANGE",
+            "surface": "減らす",
+            "direction": "DECREASE",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n8",
+            "type": "CLAIM",
+            "surface": "減らす",
+            "predicate": "CAUSES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n6",
+            "role": "BEARER",
+            "to": "n5"
+          },
+          {
+            "from": "n7",
+            "role": "QUANTITY",
+            "to": "n6"
+          },
+          {
+            "from": "n8",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n8",
+            "role": "TO",
+            "to": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D21",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "確認",
+      "meaning": "対象が期待する状態や基準に合うか確かめる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n4"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "部品"
+        }
+      ],
+      "context": {
+        "text": "部品を確認してから、部品を使用する。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "使用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "CLAIM",
+            "surface": "してから",
+            "predicate": "PRECEDES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n4",
+            "role": "TO",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D21",
+      "node_id": "n3",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "使用する",
+      "meaning": "手段や道具を作業に用いる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        13
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n4"
+      ],
+      "connections": [
+        {
+          "from": "n3",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "部品"
+        }
+      ],
+      "context": {
+        "text": "部品を確認してから、部品を使用する。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "部品"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "確認",
+            "meaning": "対象が期待する状態や基準に合うか確かめる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ACTION",
+            "surface": "使用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n4",
+            "type": "CLAIM",
+            "surface": "してから",
+            "predicate": "PRECEDES",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n4",
+            "role": "TO",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D22",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "ACTION",
+      "surface": "使用する",
+      "meaning": "手段や道具を作業に用いる",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        4
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n5"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "TARGET",
+          "to": "n1",
+          "target_surface": "梱包材"
+        }
+      ],
+      "context": {
+        "text": "梱包材を使用することが、製品の破損を防ぐ。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "梱包材"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "使用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "製品"
+          },
+          {
+            "id": "n4",
+            "type": "STATE",
+            "surface": "破損",
+            "form": "QUALITATIVE",
+            "meaning": "物が壊れて機能や形が損なわれている",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CLAIM",
+            "surface": "防ぐ",
+            "predicate": "PREVENTS",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "SUBJECT",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "TO",
+            "to": "n4"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D22",
+      "node_id": "n4",
+      "split": "discovery",
+      "node_type": "STATE",
+      "surface": "破損",
+      "meaning": "物が壊れて機能や形が損なわれている",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        15
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n5"
+      ],
+      "connections": [
+        {
+          "from": "n4",
+          "role": "SUBJECT",
+          "to": "n3",
+          "target_surface": "製品"
+        }
+      ],
+      "context": {
+        "text": "梱包材を使用することが、製品の破損を防ぐ。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "梱包材"
+          },
+          {
+            "id": "n2",
+            "type": "ACTION",
+            "surface": "使用する",
+            "meaning": "手段や道具を作業に用いる",
+            "polarity": "POSITIVE"
+          },
+          {
+            "id": "n3",
+            "type": "ENTITY",
+            "surface": "製品"
+          },
+          {
+            "id": "n4",
+            "type": "STATE",
+            "surface": "破損",
+            "form": "QUALITATIVE",
+            "meaning": "物が壊れて機能や形が損なわれている",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n5",
+            "type": "CLAIM",
+            "surface": "防ぐ",
+            "predicate": "PREVENTS",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "SUBJECT",
+            "to": "n3"
+          },
+          {
+            "from": "n5",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n5",
+            "role": "TO",
+            "to": "n4"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D23",
+      "node_id": "n2",
+      "split": "discovery",
+      "node_type": "STATE",
+      "surface": "異常音",
+      "meaning": "通常と異なる音が発生している",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        3
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n4"
+      ],
+      "connections": [
+        {
+          "from": "n2",
+          "role": "SUBJECT",
+          "to": "n1",
+          "target_surface": "設備"
+        }
+      ],
+      "context": {
+        "text": "設備の異常音は、設備の破損を示す手がかりだ。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "設備"
+          },
+          {
+            "id": "n2",
+            "type": "STATE",
+            "surface": "異常音",
+            "form": "QUALITATIVE",
+            "meaning": "通常と異なる音が発生している",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n3",
+            "type": "STATE",
+            "surface": "破損",
+            "form": "QUALITATIVE",
+            "meaning": "物が壊れて機能や形が損なわれている",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n4",
+            "type": "CLAIM",
+            "surface": "示す手がかり",
+            "predicate": "SIGNALS",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n4",
+            "role": "TO",
+            "to": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "D23",
+      "node_id": "n3",
+      "split": "discovery",
+      "node_type": "STATE",
+      "surface": "破損",
+      "meaning": "物が壊れて機能や形が損なわれている",
+      "node_occurrence_count": 1,
+      "source_surface_occurrence_count": 1,
+      "surface_offsets": [
+        11
+      ],
+      "claim_membership_count": 1,
+      "related_claim_ids": [
+        "n4"
+      ],
+      "connections": [
+        {
+          "from": "n3",
+          "role": "SUBJECT",
+          "to": "n1",
+          "target_surface": "設備"
+        }
+      ],
+      "context": {
+        "text": "設備の異常音は、設備の破損を示す手がかりだ。",
+        "nodes": [
+          {
+            "id": "n1",
+            "type": "ENTITY",
+            "surface": "設備"
+          },
+          {
+            "id": "n2",
+            "type": "STATE",
+            "surface": "異常音",
+            "form": "QUALITATIVE",
+            "meaning": "通常と異なる音が発生している",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n3",
+            "type": "STATE",
+            "surface": "破損",
+            "form": "QUALITATIVE",
+            "meaning": "物が壊れて機能や形が損なわれている",
+            "polarity": "POSITIVE",
+            "comparator": null,
+            "value": null,
+            "value_unit": null
+          },
+          {
+            "id": "n4",
+            "type": "CLAIM",
+            "surface": "示す手がかり",
+            "predicate": "SIGNALS",
+            "polarity": "POSITIVE"
+          }
+        ],
+        "relations": [
+          {
+            "from": "n2",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n3",
+            "role": "SUBJECT",
+            "to": "n1"
+          },
+          {
+            "from": "n4",
+            "role": "FROM",
+            "to": "n2"
+          },
+          {
+            "from": "n4",
+            "role": "TO",
+            "to": "n3"
+          }
+        ]
+      }
+    }
+  ]
+}

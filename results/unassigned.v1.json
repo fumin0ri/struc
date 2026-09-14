@@ -1,0 +1,211 @@
+{
+  "dictionary_version": "shared-1.0",
+  "nodes": [
+    {
+      "assignment": {
+        "document_id": "D43",
+        "node_id": "n2",
+        "concept_id": null,
+        "rationale": "標準と測定器の値との対応関係を定める校正。測定・比較・確認の一つに押し込むと操作の意味が落ちるため、固定v1では該当なし。"
+      },
+      "context": {
+        "document_id": "D43",
+        "node_id": "n2",
+        "split": "additional",
+        "node_type": "ACTION",
+        "surface": "校正する",
+        "meaning": "標準とのずれを確かめ測定値の対応関係を定める",
+        "node_occurrence_count": 1,
+        "source_surface_occurrence_count": 1,
+        "surface_offsets": [
+          4
+        ],
+        "claim_membership_count": 1,
+        "related_claim_ids": [
+          "n6"
+        ],
+        "connections": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1",
+            "target_surface": "測定器"
+          }
+        ],
+        "context": {
+          "text": "測定器を校正することが、検査作業の所要時間を減らす。",
+          "nodes": [
+            {
+              "id": "n1",
+              "type": "ENTITY",
+              "surface": "測定器"
+            },
+            {
+              "id": "n2",
+              "type": "ACTION",
+              "surface": "校正する",
+              "meaning": "標準とのずれを確かめ測定値の対応関係を定める",
+              "polarity": "POSITIVE"
+            },
+            {
+              "id": "n3",
+              "type": "ENTITY",
+              "surface": "検査作業"
+            },
+            {
+              "id": "n4",
+              "type": "QUANTITY",
+              "surface": "所要時間",
+              "meaning": "活動の実行に実際にかかる時間",
+              "unit": null
+            },
+            {
+              "id": "n5",
+              "type": "CHANGE",
+              "surface": "減らす",
+              "direction": "DECREASE",
+              "polarity": "POSITIVE"
+            },
+            {
+              "id": "n6",
+              "type": "CLAIM",
+              "surface": "減らす",
+              "predicate": "CAUSES",
+              "polarity": "POSITIVE"
+            }
+          ],
+          "relations": [
+            {
+              "from": "n2",
+              "role": "TARGET",
+              "to": "n1"
+            },
+            {
+              "from": "n4",
+              "role": "BEARER",
+              "to": "n3"
+            },
+            {
+              "from": "n5",
+              "role": "QUANTITY",
+              "to": "n4"
+            },
+            {
+              "from": "n6",
+              "role": "FROM",
+              "to": "n2"
+            },
+            {
+              "from": "n6",
+              "role": "TO",
+              "to": "n5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assignment": {
+        "document_id": "D44",
+        "node_id": "n2",
+        "concept_id": null,
+        "rationale": "標準と測定器の値との対応関係を定める校正。測定・比較・確認の一つに押し込むと操作の意味が落ちるため、固定v1では該当なし。"
+      },
+      "context": {
+        "document_id": "D44",
+        "node_id": "n2",
+        "split": "additional",
+        "node_type": "ACTION",
+        "surface": "標準値との対応を定める",
+        "meaning": "標準とのずれを確かめ測定値の対応関係を定める",
+        "node_occurrence_count": 1,
+        "source_surface_occurrence_count": 1,
+        "surface_offsets": [
+          7
+        ],
+        "claim_membership_count": 1,
+        "related_claim_ids": [
+          "n6"
+        ],
+        "connections": [
+          {
+            "from": "n2",
+            "role": "TARGET",
+            "to": "n1",
+            "target_surface": "センサー"
+          }
+        ],
+        "context": {
+          "text": "センサーの値と標準値との対応を定めることが、点検作業にかかる時間を減らす。",
+          "nodes": [
+            {
+              "id": "n1",
+              "type": "ENTITY",
+              "surface": "センサー"
+            },
+            {
+              "id": "n2",
+              "type": "ACTION",
+              "surface": "標準値との対応を定める",
+              "meaning": "標準とのずれを確かめ測定値の対応関係を定める",
+              "polarity": "POSITIVE"
+            },
+            {
+              "id": "n3",
+              "type": "ENTITY",
+              "surface": "点検作業"
+            },
+            {
+              "id": "n4",
+              "type": "QUANTITY",
+              "surface": "かかる時間",
+              "meaning": "活動の実行に実際にかかる時間",
+              "unit": null
+            },
+            {
+              "id": "n5",
+              "type": "CHANGE",
+              "surface": "減らす",
+              "direction": "DECREASE",
+              "polarity": "POSITIVE"
+            },
+            {
+              "id": "n6",
+              "type": "CLAIM",
+              "surface": "減らす",
+              "predicate": "CAUSES",
+              "polarity": "POSITIVE"
+            }
+          ],
+          "relations": [
+            {
+              "from": "n2",
+              "role": "TARGET",
+              "to": "n1"
+            },
+            {
+              "from": "n4",
+              "role": "BEARER",
+              "to": "n3"
+            },
+            {
+              "from": "n5",
+              "role": "QUANTITY",
+              "to": "n4"
+            },
+            {
+              "from": "n6",
+              "role": "FROM",
+              "to": "n2"
+            },
+            {
+              "from": "n6",
+              "role": "TO",
+              "to": "n5"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

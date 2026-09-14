@@ -1,0 +1,12 @@
+{
+  "from_version": "shared-1.0",
+  "to_version": "shared-1.1",
+  "reason": "D43/D44の未登録操作を一つの校正概念として追加。頻度合わせで測定に統合しない。",
+  "added_ids": [
+    "A007"
+  ],
+  "changed_existing_definitions": [],
+  "rechecked_nodes": 118,
+  "changed_assignments": 2,
+  "method": "assistant-authored revision choices, replayed by code; no independent LLM run"
+}

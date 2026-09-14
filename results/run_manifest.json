@@ -1,0 +1,53 @@
+{
+  "run_utc": "2026-09-14T13:05:19.055629+00:00",
+  "python_version": "3.12.14",
+  "platform": "Windows",
+  "timings_seconds": {
+    "surface": 0.008801899995887652,
+    "strict_v1": 0.011859499994898215,
+    "strict_v2": 0.0110452999942936,
+    "no_concepts": 0.013067499996395782,
+    "no_conditions": 0.012528599996585399,
+    "no_polarity": 0.015104499994777143,
+    "no_units": 0.013687600003322586
+  },
+  "timing_scope": "Single local run; validation+mining only; excludes file IO, annotation, prompts, model latency.",
+  "llm_provenance": {
+    "executor": "current Codex assistant",
+    "api_calls": 0,
+    "independent_extraction_runs": 0,
+    "method": "assistant-authored synthetic texts, graph annotations, dictionary and assignments; helpers serialize the saved choices",
+    "blind_holdout": false,
+    "raw_provider_responses": null,
+    "model_version_and_sampling_parameters": "not captured; no provider API experiment"
+  },
+  "file_sha256": {
+    "data/annotation_index.json": "d995564c298d5ea6b8c8d93198af95d0573089e2f57ee7a2eb58bb35cfaf8e0d",
+    "data/assignments.v1.json": "1cd123d8781b35ffaba317986af49804a8c61a987ec75ad25718835c4bf36f71",
+    "data/assignments.v2.json": "23b6d524c65488352113575066949b5974ad7aa261b226bed31aef96714e97ed",
+    "data/classification_decisions.v1.json": "5f9ebe0cf59e7666e01c19a5f01568e05f8b91396724967bcc75871f6a3f0184",
+    "data/corpus.json": "60ef0a9779c32cc02d3b80247cdcc45b1264487dee5933b2b8a587f63084f085",
+    "data/dictionary.v1.json": "b6c07fca056947689d614fb56b9619f38b7e8718bc7c98e376da7c360d209181",
+    "data/dictionary.v2.json": "465dc8b4ae4244ec9445ad6b8a31567d2141010f74c6efd63eb62e4cd9769aaf",
+    "data/evaluation_pairs.json": "68675d88908ddd7c0e2cf8599313c18385ed3a16d73770a2d0d8a536397f3dda",
+    "data/graphs.normalized.v1.json": "dcf624eb96abd310afc2c9dfcbf0de21d75278b7f2c952a2d0bb351c0b3e8acc",
+    "data/graphs.normalized.v2.json": "d4783d0edb9008841e8bddf28bd2f5dc3851e66ec9ca16b86f83d0c0bd3bf940",
+    "data/graphs.raw.json": "0a901b7e316df775b4ff51a85a39f9c1e3ce712ca9b4824ff38e6c639b87a104",
+    "data/vocabulary.discovery.json": "287a84718fce32112455d83bc93bf105903199a7602786d388f34d67d166e942",
+    "data/vocabulary.json": "1eef51a32a499f51c58d104209837366cdb71c85ba9e9f5ef79015a1ed253875",
+    "prompts/01_structure.txt": "f0ebbef5dd8e0e690a17408bdbdf787642bebdd82f61ef8fc82d8a68c94b2e89",
+    "prompts/02_dictionary.txt": "5f365806bb37d7aaef3418118ff17c8d76fb6bb2cb968b8eb4294be138b4aa1e",
+    "prompts/03_normalize.txt": "11a381f7678e23701c11663a5e7ccbe50ce624bb422253a3dde8fb3cd3a1b7ec",
+    "prompts/04_revise_dictionary.txt": "6c96b6bb349d77ee27e0194bfa7a0f487f1d515dd7e4959b507037d7e8f54e87",
+    "prompts/05_review_results.txt": "9a72b27c5daac5a49d31888be04c829e697bce075e383f6a0eb05350e40f97e2",
+    "scripts/build_fixture.py": "ac972f5ef173bdff8b09575ecbfa045a2f06b1b48c1920647586111899dfc4ca",
+    "scripts/freeze_annotations.py": "edb3dd459131a4af57bb711d69b0099e36c358e9009aaa37cdc82b6f4c756bf3",
+    "scripts/run_experiment.py": "8846e857cd05d80ef6b65c45640d9da536b2cfaf5dfa84395e5c71b6f8e9fdbf",
+    "scripts/run_tests.py": "dc343ad39c4abe2a032a87301772c50034d88bba22a052f9203ce0e02deafbac",
+    "scripts/write_report.py": "a70302c1c9d8d8b9271c5cfcf9fb196d6134339f0f0dc62eb3bbaf611575d740",
+    "src/__init__.py": "9e567255bc23ae0dd1c0dc4f060191e0deca0efa87aadeab1ba0dbddf24d69e0",
+    "src/cli.py": "f08bf2abdb18dd62cb88013b2fe909d51a958e996ffd6f8518d8f64689e56fc3",
+    "src/pipeline.py": "b46b6fa9a93be64bec03b3a5d5c5028d837ed125314f091b574bbac9ab6e9bf9",
+    "tests/test_pipeline.py": "0516a51ed7a5ba5c817d97e4acfac0ce600b4239345a83e2687297a0335e9c4d"
+  }
+}

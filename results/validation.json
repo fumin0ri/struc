@@ -1,0 +1,15 @@
+{
+  "documents_passed": 56,
+  "documents_failed": 0,
+  "nodes": 361,
+  "relations": 307,
+  "claim_nodes": 58,
+  "documents_without_claim": [
+    "D24",
+    "D45",
+    "D46"
+  ],
+  "unique_collected_nodes": 118,
+  "claim_memberships_before_deduplication": 122,
+  "semantic_fidelity_checked_by": "same author; not independently verified"
+}

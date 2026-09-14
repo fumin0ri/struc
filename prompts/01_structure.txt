@@ -74,10 +74,22 @@ BEARERで、何についての量かを接続する。
 
 ■ CHANGE：量の変化
 
-- direction：INCREASE / DECREASE / OTHER。
+- direction：INCREASE / DECREASE / FLUCTUATE / OTHER。
 
 必ずQUANTITY接続を1本持つ。
-増減以外の変化はOTHERとし、具体的表現はsurfaceに残す。
+
+表現とdirectionの対応：
+
+| 表現 | direction |
+|---|---|
+| 増える | INCREASE |
+| 減る | DECREASE |
+| 変動する・上下する | FLUCTUATE |
+| 一定になる・その他 | OTHER |
+
+増減を繰り返す変化はFLUCTUATEとする。
+増加・減少・変動のいずれにも当てはまらない変化はOTHERとし、
+具体的表現はsurfaceに残す。
 
 「増えない」はINCREASEとNEGATIVEで表す。
 DECREASEや不変に読み替えない。
